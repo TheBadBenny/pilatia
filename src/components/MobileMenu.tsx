@@ -42,15 +42,15 @@ export function MobileMenu() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label="Abrir menú"
-        className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-cream text-ink transition-colors hover:border-sage"
+        className="inline-flex h-11 items-center gap-2 rounded-full bg-ink px-4 text-cream shadow-[0_2px_10px_-3px_rgba(42,38,34,0.25)] transition-transform active:scale-95"
       >
         <svg
-          width="18"
-          height="18"
+          width="20"
+          height="20"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          strokeWidth="1.6"
+          strokeWidth="2"
           aria-hidden="true"
         >
           <path
@@ -59,6 +59,7 @@ export function MobileMenu() {
             strokeLinejoin="round"
           />
         </svg>
+        <span className="text-sm">Menú</span>
       </button>
 
       {open && (
