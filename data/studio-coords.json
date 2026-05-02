@@ -1,0 +1,25 @@
+{
+  "comment": "Coordenadas aproximadas (~200m de precisión) derivadas de la dirección postal de cada estudio. No son levantamiento topográfico — sirven para ranking por distancia desde la ubicación del usuario. Ver data-sources.md para metodología.",
+  "coords": {
+    "pilates-zentro": { "lat": 40.4253, "lng": -3.6815 },
+    "pinar-pilates": { "lat": 40.4365, "lng": -3.6770 },
+    "elite-pilates": { "lat": 40.4248, "lng": -3.6810 },
+    "feel-fit-pilates-madrid": { "lat": 40.4350, "lng": -3.6680 },
+    "pilates-evidence-madrid": { "lat": 40.4310, "lng": -3.6620 },
+    "hom-house-of-movement": { "lat": 40.4322, "lng": -3.6758 },
+    "centro-mana": { "lat": 40.4400, "lng": -3.7028 },
+    "city-pilates": { "lat": 40.4310, "lng": -3.7025 },
+    "laghum-club-chamberi": { "lat": 40.4422, "lng": -3.7050 },
+    "laghum-club-malasana": { "lat": 40.4253, "lng": -3.7053 },
+    "arete-pilates-estudio": { "lat": 40.4255, "lng": -3.7123 },
+    "full-pilates-madrid": { "lat": 40.4720, "lng": -3.6822 },
+    "zenit-chamartin": { "lat": 40.4561, "lng": -3.6820 },
+    "pilates-garbriele": { "lat": 40.4145, "lng": -3.6705 },
+    "nature-pilates": { "lat": 40.4170, "lng": -3.6968 },
+    "olimpia": { "lat": 40.4260, "lng": -3.6970 },
+    "casa-barre-ayala": { "lat": 40.4283, "lng": -3.6790 },
+    "casa-barre-fernando-el-santo": { "lat": 40.4310, "lng": -3.6920 },
+    "boutique-barre-madrid": { "lat": 40.4290, "lng": -3.6712 },
+    "gong-chamberi": { "lat": 40.4348, "lng": -3.6940 }
+  }
+}

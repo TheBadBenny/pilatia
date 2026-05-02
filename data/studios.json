@@ -1,0 +1,1491 @@
+{
+  "version": "1.0.0",
+  "lastBuilt": "2026-05-02",
+  "currency": "EUR",
+  "studios": [
+    {
+      "slug": "pilates-zentro",
+      "name": "Pilates Zentro",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle de Lagasca, 74",
+        "postalCode": "28001",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 915 75 64 68",
+        "email": "contacto@pilateszentro.es",
+        "website": "https://www.pilateszentro.es/"
+      },
+      "modalities": ["reformer", "mat", "cadillac", "barrel"],
+      "verticals": ["embarazadas", "principiantes", "terapeutico"],
+      "groupSize": { "max": 4, "note": "Grupos de 3-4 personas; duos y privadas también" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 90,
+        "monthlyPlans": [
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 4,
+            "price": 90,
+            "label": "Bono 4 clases grupales",
+            "sourceUrl": "https://www.pilateszentro.es/clases-de-pilates-en-madrid",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 8,
+            "price": 140,
+            "label": "Bono 8 clases grupales",
+            "sourceUrl": "https://www.pilateszentro.es/clases-de-pilates-en-madrid",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "duos": [
+          {
+            "sessionsPerMonth": 4,
+            "price": 140,
+            "label": "Duo 4 clases (por persona)",
+            "sourceUrl": "https://www.pilateszentro.es/clases-de-pilates-en-madrid",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "sessionsPerMonth": 8,
+            "price": 240,
+            "label": "Duo 8 clases (por persona)",
+            "sourceUrl": "https://www.pilateszentro.es/clases-de-pilates-en-madrid",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "private": {
+          "single": 60,
+          "fourPack": 220,
+          "eightPack": 400,
+          "sourceUrl": "https://www.pilateszentro.es/clases-de-pilates-en-madrid",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Grupos máx. 4 personas",
+        "18 años en el barrio Salamanca",
+        "Pilates terapéutico y embarazadas"
+      ],
+      "description": "Centro pionero de Pilates en el barrio de Salamanca, especializado en máquinas (Reformer, Cadillac, Barril) y suelo. Sesiones de 55 min en grupos pequeños o privadas. Programa específico para embarazadas y pilates terapéutico.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "pinar-pilates",
+      "name": "Pinar Pilates",
+      "barrios": ["salamanca", "chamartin"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle del Pinar, 8",
+        "postalCode": "28006",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 611 99 47 29",
+        "email": "Hola@pinarpilates.com",
+        "website": "https://pinarpilates.com/"
+      },
+      "modalities": ["reformer"],
+      "verticals": [],
+      "groupSize": { "max": 8, "note": "Grupos de hasta 8 personas con instructor experto" },
+      "languages": ["es"],
+      "amenities": ["vestuarios", "duchas", "alquiler-toallas"],
+      "hours": "L-V 7:00-10:00, 13:00-15:00, 17:00-21:00 · S-D 8:30-13:00",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 100,
+        "monthlyPlans": [
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 4,
+            "price": 100,
+            "label": "4 Clases/mes",
+            "sourceUrl": "https://pinarpilates.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 8,
+            "price": 150,
+            "label": "8 Clases/mes",
+            "sourceUrl": "https://pinarpilates.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 12,
+            "price": 200,
+            "label": "12 Clases/mes",
+            "sourceUrl": "https://pinarpilates.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": null,
+            "price": 250,
+            "label": "Clases ilimitadas",
+            "sourceUrl": "https://pinarpilates.com/precios/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "packages": [
+          {
+            "sessions": 5,
+            "price": 130,
+            "validityDays": 90,
+            "sourceUrl": "https://pinarpilates.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "sessions": 10,
+            "price": 200,
+            "validityDays": 90,
+            "sourceUrl": "https://pinarpilates.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "sessions": 20,
+            "price": 340,
+            "validityDays": 90,
+            "sourceUrl": "https://pinarpilates.com/precios/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "dropIn": {
+          "modality": "reformer",
+          "price": 30,
+          "sourceUrl": "https://pinarpilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "descuento",
+          "details": "Primera clase al 50%",
+          "sourceUrl": "https://pinarpilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Grupos hasta 8 personas",
+        "Vestuarios con duchas",
+        "Plan ilimitado disponible (250€/mes)"
+      ],
+      "description": "Estudio reformer en el barrio Salamanca-Chamartín con grupos pequeños y instructores expertos. Vestuarios completos con duchas. Horario amplio incluyendo fines de semana.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "elite-pilates",
+      "name": "Élite Pilates",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle General Pardiñas, 9, 1º Derecha",
+        "postalCode": "28001",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 91 435 78 38",
+        "email": "contacto@elitepilates.net",
+        "website": "https://elitepilates.net/"
+      },
+      "modalities": ["reformer", "cadillac", "chair", "barrel"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Programas individuales de entrenamiento de alto nivel" },
+      "languages": ["es", "en"],
+      "amenities": [],
+      "hours": "L-V 8:00-21:00",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 520,
+        "monthlyPlans": [
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 8,
+            "price": 520,
+            "label": "Programa 2 sesiones/semana",
+            "sourceUrl": "https://elitepilates.net/programas/",
+            "lastVerified": "2026-05-02",
+            "note": "Sesiones individuales premium. Requiere valoración inicial de 135€."
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 12,
+            "price": 745,
+            "label": "Programa 3 sesiones/semana",
+            "sourceUrl": "https://elitepilates.net/programas/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "trial": {
+          "type": "obligatoria",
+          "price": 135,
+          "details": "Valoración Integral Inicial obligatoria",
+          "sourceUrl": "https://elitepilates.net/programas/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Pilates Original (método clásico)",
+        "Sesiones individuales premium",
+        "20 años de experiencia"
+      ],
+      "description": "Estudio premium especializado en el Método Pilates Original, con casi dos décadas en el barrio de Salamanca. Programas de entrenamiento personalizados de alto nivel con valoración integral inicial obligatoria. Idiomas español e inglés.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "feel-fit-pilates-madrid",
+      "name": "Feel Fit Pilates Madrid",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle de Alonso Heredia, 5",
+        "postalCode": "28028",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 675 31 75 93",
+        "email": "info@feelfitmadrid.com",
+        "website": "https://feelfitmadrid.com/"
+      },
+      "modalities": ["mat"],
+      "verticals": ["embarazadas", "hipopresivos"],
+      "groupSize": { "max": 8 },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "L-J 7:00-21:30 · V 7:00-19:30",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 65,
+        "monthlyPlans": [
+          {
+            "modality": "mat",
+            "sessionsPerWeek": 1,
+            "price": 65,
+            "label": "Pilates suelo 1 clase/semana",
+            "sourceUrl": "https://feelfitmadrid.com/horarios-y-precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mat",
+            "sessionsPerWeek": 2,
+            "price": 110,
+            "label": "Pilates suelo 2 clases/semana",
+            "sourceUrl": "https://feelfitmadrid.com/horarios-y-precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "hipopresivos",
+            "sessionsPerWeek": 1,
+            "price": 65,
+            "label": "Hipopresivos 1 clase/semana",
+            "sourceUrl": "https://feelfitmadrid.com/horarios-y-precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "hipopresivos",
+            "sessionsPerWeek": 2,
+            "price": 110,
+            "label": "Hipopresivos 2 clases/semana",
+            "sourceUrl": "https://feelfitmadrid.com/horarios-y-precios/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "packages": [
+          {
+            "sessions": 5,
+            "price": 285,
+            "label": "Embarazadas bono 5",
+            "sourceUrl": "https://feelfitmadrid.com/horarios-y-precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "sessions": 10,
+            "price": 520,
+            "label": "Embarazadas bono 10",
+            "sourceUrl": "https://feelfitmadrid.com/horarios-y-precios/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "trial": {
+          "type": "paga",
+          "price": 30,
+          "details": "Clase de prueba 55 min · gratuita con compra de bono 10 sesiones",
+          "sourceUrl": "https://feelfitmadrid.com/horarios-y-precios/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Romana's Pilates (método clásico)",
+        "Especialistas en embarazadas",
+        "+10 años acompañando a mujeres en embarazo y posparto"
+      ],
+      "description": "Estudio de pilates suelo en el barrio Salamanca/Guindalera enfocado en Romana's Pilates clásico, con programas específicos para embarazadas y posparto. También ofrecen hipopresivos y método TAD.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "pilates-evidence-madrid",
+      "name": "Pilates Evidence Madrid",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Paseo del Marqués de Zafra, 44",
+        "postalCode": "28028",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 625 30 10 19",
+        "email": "madrid@pilatesevidence.com",
+        "website": "https://www.pilatesevidence.com/centros/pilates-evidence-madrid/"
+      },
+      "modalities": ["reformer"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Grupos reducidos" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 75,
+        "monthlyPlans": [
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 1,
+            "price": 75,
+            "label": "1 clase semanal grupal",
+            "sourceUrl": "https://www.pilatesevidence.com/centros/pilates-evidence-madrid/tarifas-pilates-evidence-madrid/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 2,
+            "price": 130,
+            "label": "2 clases semanales grupal",
+            "sourceUrl": "https://www.pilatesevidence.com/centros/pilates-evidence-madrid/tarifas-pilates-evidence-madrid/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 3,
+            "price": 180,
+            "label": "3 clases semanales grupal",
+            "sourceUrl": "https://www.pilatesevidence.com/centros/pilates-evidence-madrid/tarifas-pilates-evidence-madrid/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "private": {
+          "single": 45,
+          "fivePack": 215,
+          "tenPack": 400,
+          "sourceUrl": "https://www.pilatesevidence.com/centros/pilates-evidence-madrid/tarifas-pilates-evidence-madrid/",
+          "lastVerified": "2026-05-02"
+        },
+        "dropIn": {
+          "modality": "reformer",
+          "price": 25,
+          "sourceUrl": "https://www.pilatesevidence.com/centros/pilates-evidence-madrid/tarifas-pilates-evidence-madrid/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "gratuita",
+          "price": 0,
+          "details": "Una sesión de prueba gratis",
+          "sourceUrl": "https://www.pilatesevidence.com/centros/pilates-evidence-madrid/tarifas-pilates-evidence-madrid/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Sesión de prueba gratuita",
+        "Drop-in 25€",
+        "Privadas y semiprivadas"
+      ],
+      "description": "Pilates con máquinas en el barrio Salamanca/Goya, en grupos reducidos. Ofrecen prueba gratuita y opción de drop-in puntual a 25€, además de bonos de privadas.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "hom-house-of-movement",
+      "name": "HOM | House of Movement",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle Juan Bravo, 75",
+        "postalCode": "28006",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 627 08 94 18",
+        "email": "hello@hommadrid.com",
+        "website": "https://www.hommadrid.com/"
+      },
+      "modalities": ["reformer", "mat", "barre"],
+      "verticals": [],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "L-V 10:00-18:00",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 138,
+        "monthlyPlans": [
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 10,
+            "price": 138,
+            "label": "MINI MIXTO I (6 mat + 4 reformer)",
+            "sourceUrl": "https://www.hommadrid.com/precios",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 10,
+            "price": 158,
+            "label": "MINI MIXTO II (6 reformer + 4 mat)",
+            "sourceUrl": "https://www.hommadrid.com/precios",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 20,
+            "price": 232,
+            "label": "MIXTO MAT REFORMER (12 mat + 8 reformer)",
+            "sourceUrl": "https://www.hommadrid.com/precios",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "notes": "Cargo recurrente y automático, sin matrícula"
+      },
+      "highlights": [
+        "Mat + Reformer + Barre combinados",
+        "Sin matrícula",
+        "Mini packs desde 138€"
+      ],
+      "description": "Estudio boutique en el barrio Salamanca con clases de Pilates Mat, Reformer y Barre. Suscripción mensual recurrente sin matrícula, en formatos mixtos que combinan mat y reformer.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "centro-mana",
+      "name": "Centro Maná",
+      "barrios": ["chamberi"],
+      "district": "Chamberí",
+      "address": {
+        "street": "Calle Alonso Cano, 10",
+        "postalCode": "28010",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 686 26 45 90",
+        "email": "info@centromana.es",
+        "website": "https://centromana.es/pilates-chamberi/"
+      },
+      "modalities": ["reformer", "mat"],
+      "verticals": ["principiantes"],
+      "groupSize": { "max": null, "note": "Power Pilates y grupos según modalidad" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 52,
+        "monthlyPlans": [
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 1,
+            "price": 52,
+            "label": "Máquinas 45min · 1 clase/semana",
+            "sourceUrl": "https://centromana.es/pilates-chamberi/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 2,
+            "price": 80,
+            "label": "Máquinas 45min · 2 clases/semana",
+            "sourceUrl": "https://centromana.es/pilates-chamberi/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 1,
+            "price": 68,
+            "label": "Máquinas 60min · 1 clase/semana",
+            "sourceUrl": "https://centromana.es/pilates-chamberi/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 2,
+            "price": 105,
+            "label": "Máquinas 60min · 2 clases/semana",
+            "sourceUrl": "https://centromana.es/pilates-chamberi/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "private": {
+          "single": 50,
+          "fourPack": 192,
+          "eightPack": 360,
+          "twelvePack": 510,
+          "sourceUrl": "https://centromana.es/pilates-chamberi/",
+          "lastVerified": "2026-05-02",
+          "note": "Sesiones individuales 50min. También 30min disponibles desde 32€."
+        },
+        "trial": {
+          "type": "gratuita",
+          "price": 0,
+          "details": "Tu primera clase gratis",
+          "sourceUrl": "https://centromana.es/pilates-chamberi/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Primera clase gratis",
+        "Desde 52€/mes (1 clase semanal)",
+        "Power Pilates y máquinas"
+      ],
+      "description": "Estudio en Chamberí (Alonso Cano) con clases de Pilates Reformer en formatos de 45 y 60 minutos. Power Pilates, Best Balance y sesiones individuales. Primera clase gratuita para nuevos clientes.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "city-pilates",
+      "name": "City Pilates",
+      "barrios": ["chamberi"],
+      "district": "Chamberí",
+      "address": {
+        "street": "Calle Ruiz, 27",
+        "postalCode": "28010",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 628 72 02 25",
+        "email": "info@city-pilates.com",
+        "website": "https://city-pilates.com/"
+      },
+      "modalities": ["reformer", "mat"],
+      "verticals": ["embarazadas", "posparto", "senior"],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "L-J 8:00-22:00 · V 10:00-20:00 · S 10:00-14:00",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 85,
+        "monthlyPlans": [
+          {
+            "modality": "mixed",
+            "sessionsPerWeek": 1,
+            "price": 85,
+            "label": "Combo 1 estudio · 1 clase/semana",
+            "sourceUrl": "https://city-pilates.com/precios",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerWeek": 2,
+            "price": 150,
+            "label": "Combo 2 estudio · 2 clases/semana",
+            "sourceUrl": "https://city-pilates.com/precios",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerWeek": 2,
+            "price": 95,
+            "label": "Combo 1+1 (1 estudio + 1 online)",
+            "sourceUrl": "https://city-pilates.com/precios",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mat",
+            "sessionsPerWeek": 1,
+            "price": 42,
+            "label": "Online 1 clase/semana",
+            "sourceUrl": "https://city-pilates.com/precios",
+            "lastVerified": "2026-05-02",
+            "note": "Modalidad online, no presencial"
+          }
+        ],
+        "verticalPlans": [
+          {
+            "vertical": "embarazadas",
+            "sessionsPerWeek": 2,
+            "price": 150,
+            "sourceUrl": "https://city-pilates.com/precios",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "vertical": "senior",
+            "sessionsPerWeek": 2,
+            "price": 98,
+            "sourceUrl": "https://city-pilates.com/precios",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "private": {
+          "single": 55,
+          "fourPack": 200,
+          "eightPack": 360,
+          "sourceUrl": "https://city-pilates.com/precios",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 45,
+          "details": "Privada de prueba (1ª clase)",
+          "sourceUrl": "https://city-pilates.com/precios",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Modalidad online disponible",
+        "Programas para embarazadas y +65",
+        "Combo estudio + online"
+      ],
+      "description": "Estudio en Chamberí (Trafalgar) con clases presenciales y online, programas específicos para embarazadas, posparto y +65. Combo flexible de estudio + online.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "laghum-club-chamberi",
+      "name": "Laghum Club Chamberí",
+      "barrios": ["chamberi"],
+      "district": "Chamberí",
+      "address": {
+        "street": "Calle Espronceda, 31",
+        "postalCode": "28003",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 699 59 74 38",
+        "email": null,
+        "website": "https://laghumclub.com/centros/centro-pilates-maquinas-chamberi/"
+      },
+      "modalities": ["reformer"],
+      "verticals": ["suelo-pelvico"],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": ["vestuarios"],
+      "hours": "Disponible en PDF en la web",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 89.99,
+        "monthlyPlans": [
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 8,
+            "price": 89.99,
+            "label": "8 sesiones/mes",
+            "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-chamberi/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 12,
+            "price": 119.99,
+            "label": "12 sesiones/mes",
+            "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-chamberi/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "packages": [
+          {
+            "sessions": 10,
+            "price": 149.99,
+            "label": "Bono 10 accesos",
+            "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-chamberi/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "trial": {
+          "type": "info",
+          "details": "Reserva una clase de prueba (web)",
+          "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-chamberi/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Matrícula 39,99€ aparte. Tarifa Plus +9,99€/mes da acceso a 3 ubicaciones de la cadena."
+      },
+      "highlights": [
+        "Cadena con 3 ubicaciones (acceso con tarifa Plus)",
+        "Pilates máquinas exclusivamente",
+        "Bono 10 accesos sin caducidad inmediata"
+      ],
+      "description": "Centro de la cadena Laghum Club en Chamberí (Espronceda) especializado en Pilates con máquinas. Tarifa Plus permite acceso a las 3 ubicaciones (Chamberí, Malasaña y otra). Matrícula 39,99€ separada.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "laghum-club-malasana",
+      "name": "Laghum Club Malasaña",
+      "barrios": ["malasana"],
+      "district": "Centro",
+      "address": {
+        "street": "Calle Malasaña, 31",
+        "postalCode": "28004",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 699 59 74 38",
+        "email": null,
+        "website": "https://laghumclub.com/centros/centro-pilates-maquinas-malasana/"
+      },
+      "modalities": ["reformer"],
+      "verticals": ["suelo-pelvico"],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": ["vestuarios"],
+      "hours": "Disponible en PDF en la web",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 89.99,
+        "monthlyPlans": [
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 8,
+            "price": 89.99,
+            "label": "8 sesiones/mes",
+            "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-malasana/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 12,
+            "price": 119.99,
+            "label": "12 sesiones/mes",
+            "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-malasana/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "packages": [
+          {
+            "sessions": 10,
+            "price": 149.99,
+            "label": "Bono 10 accesos",
+            "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-malasana/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "trial": {
+          "type": "info",
+          "details": "Reserva una clase de prueba (web)",
+          "sourceUrl": "https://laghumclub.com/centros/centro-pilates-maquinas-malasana/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Matrícula 39,99€ aparte. Tarifa Plus +9,99€/mes da acceso a 3 ubicaciones."
+      },
+      "highlights": [
+        "En el corazón de Malasaña",
+        "Pilates máquinas exclusivamente",
+        "Tarifa Plus para 3 ubicaciones"
+      ],
+      "description": "Centro de la cadena Laghum Club en Malasaña (Calle Malasaña 31), especializado en Pilates con máquinas y entrenamiento personal. Tarifa Plus permite acceder a las 3 ubicaciones de la cadena.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "arete-pilates-estudio",
+      "name": "Aretē Pilates Estudio",
+      "barrios": ["malasana", "conde-duque"],
+      "district": "Centro",
+      "address": {
+        "street": "Calle del Acuerdo, 13",
+        "postalCode": "28015",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 643 62 02 84",
+        "email": null,
+        "website": "https://estudioarete.com/"
+      },
+      "modalities": ["reformer", "mat"],
+      "verticals": [],
+      "groupSize": { "max": 5, "note": "Clases de 50-60 min" },
+      "languages": ["es"],
+      "amenities": ["cafe", "te", "zonas-comunes"],
+      "hours": "L-V 7:00-21:00 · S 7:00-18:00 · D cerrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 55,
+        "monthlyPlans": [
+          {
+            "modality": "mat",
+            "sessionsPerMonth": 4,
+            "price": 55,
+            "label": "Mat 4 mensuales grupal",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mat",
+            "sessionsPerMonth": 8,
+            "price": 105,
+            "label": "Mat 8 mensuales grupal",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 4,
+            "price": 85,
+            "label": "Reformer 4 mensuales grupal",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 8,
+            "price": 165,
+            "label": "Reformer 8 mensuales grupal",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerMonth": 12,
+            "price": 245,
+            "label": "Reformer 12 mensuales grupal",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 4,
+            "price": 65,
+            "label": "Combo 2 mat + 2 reformer",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 8,
+            "price": 130,
+            "label": "Combo 4 mat + 4 reformer",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "packages": [
+          {
+            "sessions": 3,
+            "price": 60,
+            "label": "Intro Journey Reformer",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "sessions": 5,
+            "price": 125,
+            "label": "5 reformer (caduca 2 meses)",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "sessions": 10,
+            "price": 225,
+            "label": "10 reformer (caduca 3 meses)",
+            "sourceUrl": "https://estudioarete.com/precios/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "private": {
+          "single": 75,
+          "sourceUrl": "https://estudioarete.com/precios/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Grupos de máx. 5 personas",
+        "Café y té incluidos en suscripción",
+        "Combos mat + reformer flexibles"
+      ],
+      "description": "Estudio boutique en Conde Duque (Malasaña adyacente) con clases de Mat y Reformer en grupos de máx. 5 personas. Suscripciones mensuales y bonos de packs. Café y té incluidos.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "full-pilates-madrid",
+      "name": "Full Pilates Madrid",
+      "barrios": ["chamartin"],
+      "district": "Chamartín",
+      "address": {
+        "street": "Plaza Estación de Chamartín, s/n",
+        "postalCode": "28036",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 626 87 40 68",
+        "email": "info@fullpilatesmadrid.es",
+        "website": "https://chamartin.fullpilatesmadrid.es/"
+      },
+      "modalities": ["reformer", "mat", "barre"],
+      "verticals": ["hipopresivos"],
+      "groupSize": { "max": 12, "note": "Pilates máx. 8, Ground máx. 7, Barre máx. 12" },
+      "languages": ["es"],
+      "amenities": ["yoofit-acceso", "taquillas", "solarium", "parking-2h"],
+      "hours": "L-S múltiples franjas 10:00-21:30",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 99.95,
+        "monthlyPlans": [
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 4,
+            "price": 99.95,
+            "label": "Básica · 4 días/mes",
+            "sourceUrl": "https://chamartin.fullpilatesmadrid.es/#tarifas",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 8,
+            "price": 129.95,
+            "label": "Media · 8 días/mes",
+            "sourceUrl": "https://chamartin.fullpilatesmadrid.es/#tarifas",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerMonth": 12,
+            "price": 149.95,
+            "label": "Premium · 12 días/mes",
+            "sourceUrl": "https://chamartin.fullpilatesmadrid.es/#tarifas",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "notes": "Todos los planes incluyen acceso completo a Yoofit (sala fitness, cardio, taquillas, solarium). Oferta especial: 5 fisio + 5 pilates por 300€."
+      },
+      "highlights": [
+        "Acceso completo a Yoofit (gimnasio)",
+        "Parking gratis 2h",
+        "Plaza Estación Chamartín"
+      ],
+      "description": "Estudio en la Estación de Chamartín con clases de Pilates Máquina, Mat, Barre, Hipopresivos y Movimiento Consciente. Las tarifas incluyen acceso completo al gimnasio Yoofit (cardio, taquillas, solarium) y 2h de parking gratuito.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "zenit-chamartin",
+      "name": "Zenit Chamartín",
+      "barrios": ["chamartin"],
+      "district": "Chamartín",
+      "address": {
+        "street": null,
+        "postalCode": null,
+        "city": "Madrid",
+        "note": "Dirección no publicada en la web — distrito Chamartín"
+      },
+      "contact": {
+        "phone": "+34 638 35 90 63",
+        "email": "info@zenitchamartin.com",
+        "website": "https://zenitchamartin.com/pilates/"
+      },
+      "modalities": ["reformer", "mat"],
+      "verticals": ["principiantes", "terapeutico"],
+      "groupSize": { "max": 6 },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 55,
+        "monthlyPlans": [
+          {
+            "modality": "mat",
+            "sessionsPerWeek": 1,
+            "price": 55,
+            "label": "Suelo · 1 día/semana",
+            "sourceUrl": "https://zenitchamartin.com/pilates/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mat",
+            "sessionsPerWeek": 2,
+            "price": 90,
+            "label": "Suelo · 2 días/semana",
+            "sourceUrl": "https://zenitchamartin.com/pilates/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mat",
+            "sessionsPerWeek": 3,
+            "price": 120,
+            "label": "Suelo · 3 días/semana",
+            "sourceUrl": "https://zenitchamartin.com/pilates/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 1,
+            "price": 70,
+            "label": "Máquinas · 1 día/semana",
+            "sourceUrl": "https://zenitchamartin.com/pilates/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 2,
+            "price": 120,
+            "label": "Máquinas · 2 días/semana",
+            "sourceUrl": "https://zenitchamartin.com/pilates/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 3,
+            "price": 160,
+            "label": "Máquinas · 3 días/semana",
+            "sourceUrl": "https://zenitchamartin.com/pilates/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "trial": {
+          "type": "obligatoria",
+          "details": "Primera clase de prueba para valorar nivel y patologías",
+          "sourceUrl": "https://zenitchamartin.com/pilates/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Matrícula gratuita en todos los planes."
+      },
+      "highlights": [
+        "Matrícula gratis",
+        "Suelo y máquinas (Springboard)",
+        "Grupos de máx. 6 personas"
+      ],
+      "description": "Estudio en Chamartín con clases de Pilates suelo y máquinas (Springboard) en grupos de máx. 6 personas, dirigido por fisioterapeutas. Primera clase de prueba para valoración. Matrícula gratuita.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "pilates-garbriele",
+      "name": "Pilates Garbriele",
+      "barrios": ["retiro"],
+      "district": "Retiro",
+      "address": {
+        "street": "Calle del Doce de Octubre, 32 - Local 2",
+        "postalCode": "28009",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 615 36 89 21",
+        "email": "info@pilatesgarbriele.com",
+        "website": "https://pilatesgarbriele.com/"
+      },
+      "modalities": ["reformer", "mat", "barre", "chair", "cadillac"],
+      "verticals": [],
+      "groupSize": { "max": 4 },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 75,
+        "monthlyPlans": [
+          {
+            "modality": "mixed",
+            "sessionsPerWeek": 1,
+            "price": 75,
+            "label": "Bronce · 1 clase/semana",
+            "sourceUrl": "https://pilatesgarbriele.com/precio-pilates-madrid/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerWeek": 2,
+            "price": 130,
+            "label": "Plata · 2 clases/semana",
+            "sourceUrl": "https://pilatesgarbriele.com/precio-pilates-madrid/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "modality": "mixed",
+            "sessionsPerWeek": 3,
+            "price": 180,
+            "label": "Oro · 3 clases/semana",
+            "sourceUrl": "https://pilatesgarbriele.com/precio-pilates-madrid/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "private": {
+          "single": 60,
+          "tenPack": 550,
+          "sourceUrl": "https://pilatesgarbriele.com/precio-pilates-madrid/",
+          "lastVerified": "2026-05-02"
+        },
+        "duos": [
+          {
+            "single": 40,
+            "tenPack": 350,
+            "label": "Duo (por persona)",
+            "sourceUrl": "https://pilatesgarbriele.com/precio-pilates-madrid/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "dropIn": {
+          "modality": "mixed",
+          "price": 25,
+          "label": "Clase suelta grupal",
+          "sourceUrl": "https://pilatesgarbriele.com/precio-pilates-madrid/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 40,
+          "details": "Clase de valoración (obligatoria para nuevos clientes)",
+          "sourceUrl": "https://pilatesgarbriele.com/precio-pilates-madrid/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Grupos máx. 4 personas",
+        "NCPT Pilates certificado",
+        "Reformer + Sillas + Cadillac + Barré"
+      ],
+      "description": "Estudio en Retiro (zona Ibiza) con Pilates de máquinas (Reformer, Sillas, Cadillac), suelo y Barré, en grupos de máx. 4 personas con instructor NCPT certificado. Valoración inicial obligatoria 40€.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "nature-pilates",
+      "name": "Nature Pilates",
+      "barrios": ["centro"],
+      "district": "Centro",
+      "address": {
+        "street": "Calle de los Madrazo, 28 Local Izq.",
+        "postalCode": "28014",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 638 28 91 28",
+        "email": null,
+        "website": "https://www.naturepilates.es/"
+      },
+      "modalities": ["reformer", "cadillac", "tower", "chair", "barrel"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Grupos reducidos · privadas y duos" },
+      "languages": ["es", "en"],
+      "amenities": [],
+      "hours": "L-J 8:00-21:00",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 165,
+        "monthlyPlans": [
+          {
+            "modality": "reformer",
+            "sessionsPerWeek": 2,
+            "price": 165,
+            "label": "Grupo reducido · 2 clases/semana",
+            "sourceUrl": "https://www.naturepilates.es/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "private": {
+          "single": 74,
+          "fourPack": 260,
+          "eightPack": 448,
+          "sourceUrl": "https://www.naturepilates.es/",
+          "lastVerified": "2026-05-02"
+        },
+        "duos": [
+          {
+            "single": 56,
+            "fourPack": 188,
+            "eightPack": 304,
+            "label": "Duo (por persona)",
+            "sourceUrl": "https://www.naturepilates.es/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "notes": "Privadas con Ricardo Jaramillo: 120€ clase suelta."
+      },
+      "highlights": [
+        "Repertorio completo de aparatos originales",
+        "Bilingüe español/inglés",
+        "Cerca del Paseo del Prado"
+      ],
+      "description": "Estudio en el centro de Madrid (Las Letras, cerca del Paseo del Prado) con el repertorio completo de aparatos originales: Reformer, Cadillac, Torre, Chair, Ladder Barrel. Clases en español e inglés.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "olimpia",
+      "name": "Olimpia",
+      "barrios": ["chueca", "tetuan"],
+      "district": "Centro",
+      "address": {
+        "street": "Calle de Hortaleza, 110",
+        "postalCode": "28004",
+        "city": "Madrid",
+        "note": "Segunda ubicación en Calle Orense 69, 28020 (Tetuán)"
+      },
+      "contact": {
+        "phone": "+34 686 48 55 66",
+        "email": "hello@olimpiatwc.com",
+        "website": "https://www.olimpiatwc.com/"
+      },
+      "modalities": ["reformer", "mat"],
+      "verticals": ["recovery", "wellness"],
+      "groupSize": { "max": null, "note": "Dynamic Reformer Pilates en grupo" },
+      "languages": ["es", "en"],
+      "amenities": ["sauna-infrarrojos", "cold-plunge", "red-light-therapy", "theragun", "pressotherapy"],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": null,
+        "monthlyPlans": [],
+        "monthlyPlansNote": "Memberships (Reformer / Mat / Combined, frecuencias x4-x12-ilimitada) existen pero precios mensuales NO publicados explícitamente en la web. Solo se publica drop-in y trial.",
+        "dropIn": {
+          "modality": "reformer",
+          "price": 30,
+          "label": "Single Reformer Class",
+          "sourceUrl": "https://www.olimpiatwc.com/",
+          "lastVerified": "2026-05-02"
+        },
+        "dropInMat": {
+          "modality": "mat",
+          "price": 28,
+          "label": "Single Mat Class",
+          "sourceUrl": "https://www.olimpiatwc.com/",
+          "lastVerified": "2026-05-02"
+        },
+        "private": {
+          "single": 75,
+          "label": "Single Reformer Private Class",
+          "sourceUrl": "https://www.olimpiatwc.com/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 49,
+          "details": "Olimpia Trial · 3 clases o sesiones en 2 semanas",
+          "sourceUrl": "https://www.olimpiatwc.com/",
+          "lastVerified": "2026-05-02"
+        },
+        "extras": [
+          { "name": "Recovery Express 25min", "price": 35, "sourceUrl": "https://www.olimpiatwc.com/", "lastVerified": "2026-05-02" },
+          { "name": "Recovery Full Session 45min", "price": 50, "sourceUrl": "https://www.olimpiatwc.com/", "lastVerified": "2026-05-02" },
+          { "name": "Infrared Sauna 25min", "price": 25, "sourceUrl": "https://www.olimpiatwc.com/", "lastVerified": "2026-05-02" }
+        ]
+      },
+      "highlights": [
+        "Dynamic Reformer Pilates",
+        "Recovery (sauna infrarrojos + cold plunge)",
+        "Trial 49€ (3 sesiones en 2 semanas)"
+      ],
+      "description": "Concepto wellness en Chueca (Hortaleza 110) con Dynamic Reformer Pilates, Mat Pilates y zona de recovery (sauna de infrarrojos, cold plunge, red light therapy). Segunda ubicación en Tetuán (Orense 69). Clases en español e inglés.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "casa-barre-ayala",
+      "name": "Casa Barré Ayala",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle de Ayala, 71",
+        "postalCode": "28001",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 912 85 98 65",
+        "email": "info@casabarre.com",
+        "website": "https://casabarre.com/",
+        "instagram": "@casa.barre"
+      },
+      "modalities": ["barre"],
+      "verticals": [],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "L-J 7:15-20:30 · V 7:15-18:45 · S 10:00-11:15",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 60,
+        "monthlyPlans": [
+          { "modality": "barre", "sessionsPerMonth": 3, "price": 60, "label": "Bono 3 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 5, "price": 85, "label": "Bono 5 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 8, "price": 110, "label": "Bono 8 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 12, "price": 130, "label": "Bono 12 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": null, "price": 145, "label": "Ilimitadas/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" }
+        ],
+        "trial": {
+          "type": "paga",
+          "price": 15,
+          "details": "Primera clase de prueba",
+          "sourceUrl": "https://casabarre.com/precios",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Tarifas comunes a todas las ubicaciones Casa Barré. Plan ilimitado da ~7,3€/clase."
+      },
+      "highlights": [
+        "Especialistas en barre (ballet + fuerza + cardio)",
+        "Plan ilimitado 145€/mes (~7€/clase)",
+        "Cadena con 4 ubicaciones en Madrid"
+      ],
+      "description": "Casa Barré Ayala, en pleno barrio de Salamanca, fue uno de los primeros estudios de barre en Madrid. Las clases fusionan ballet, fuerza y cardio en sesiones de 50-60 minutos. Plan ilimitado a 145€/mes, primera clase 15€.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "casa-barre-fernando-el-santo",
+      "name": "Casa Barré Fernando el Santo",
+      "barrios": ["chamberi"],
+      "district": "Chamberí",
+      "address": {
+        "street": "Calle de Fernando el Santo, 21",
+        "postalCode": "28010",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 912 97 58 03",
+        "email": "info@casabarre.com",
+        "website": "https://casabarre.com/",
+        "instagram": "@casa.barre"
+      },
+      "modalities": ["barre"],
+      "verticals": [],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "L-J 7:15-20:30 · V 7:15-18:45 · S 10:00-11:15",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 60,
+        "monthlyPlans": [
+          { "modality": "barre", "sessionsPerMonth": 3, "price": 60, "label": "Bono 3 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 5, "price": 85, "label": "Bono 5 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 8, "price": 110, "label": "Bono 8 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 12, "price": 130, "label": "Bono 12 clases/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": null, "price": 145, "label": "Ilimitadas/mes", "sourceUrl": "https://casabarre.com/precios", "lastVerified": "2026-05-02" }
+        ],
+        "trial": {
+          "type": "paga",
+          "price": 15,
+          "details": "Primera clase de prueba",
+          "sourceUrl": "https://casabarre.com/precios",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Tarifas comunes a todas las ubicaciones Casa Barré. Plan ilimitado da ~7,3€/clase."
+      },
+      "highlights": [
+        "Especialistas en barre (ballet + fuerza + cardio)",
+        "Plan ilimitado 145€/mes",
+        "Ubicación en Almagro (Chamberí)"
+      ],
+      "description": "Casa Barré en Almagro (Chamberí), Fernando el Santo 21. Mismo método que la cadena: clases de 50-60 min mezclando ballet, fuerza y cardio. Plan ilimitado a 145€/mes, primera clase 15€.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "boutique-barre-madrid",
+      "name": "Boutique Barre Madrid",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle Goya, 137",
+        "postalCode": "28006",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": null,
+        "email": "contacto@boutiquebarre.es",
+        "website": "https://www.boutiquebarre.me/"
+      },
+      "modalities": ["barre"],
+      "verticals": [],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "Disponible en /horarios",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": null,
+        "monthlyPlansNote": "Mensualidades publicadas en /precios pero no extraídas en esta verificación. Sólo verificamos abiertamente la oferta de bienvenida.",
+        "packages": [
+          {
+            "sessions": 3,
+            "price": 39,
+            "label": "Pack bienvenida 3 clases",
+            "validityDays": 30,
+            "sourceUrl": "https://www.boutiquebarre.me/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "trial": {
+          "type": "paga",
+          "price": 15,
+          "details": "Primera clase de prueba",
+          "sourceUrl": "https://www.boutiquebarre.me/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Mensualidades publicadas en su web pero no extraídas en esta verificación. Re-verificar para próxima ronda."
+      },
+      "highlights": [
+        "Estudio dedicado a barre",
+        "Pack bienvenida 3 clases × 39€",
+        "Goya 137 (alta Salamanca)"
+      ],
+      "description": "Boutique Barre en pleno barrio de Salamanca (Goya 137). Clases que fusionan técnica de ballet, ejercicios de resistencia y entrenamiento funcional al ritmo de música. Pack de bienvenida de 3 clases por 39€ válido durante 1 mes.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "gong-chamberi",
+      "name": "GONG Chamberí",
+      "barrios": ["chamberi"],
+      "district": "Chamberí",
+      "address": {
+        "street": "Paseo Martínez Campos, 24",
+        "postalCode": "28010",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 911 99 29 54",
+        "email": null,
+        "website": "https://gong.yoga/"
+      },
+      "modalities": ["barre", "mat", "reformer"],
+      "verticals": [],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 95,
+        "monthlyPlans": [
+          {
+            "modality": "barre",
+            "sessionsPerWeek": 1,
+            "price": 95,
+            "label": "Mensual 1 día/semana",
+            "sourceUrl": "https://gong.yoga/tarifas/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "packages": [
+          {
+            "sessions": 15,
+            "price": 280,
+            "label": "Trimestral 15 sesiones",
+            "validityDays": 90,
+            "sourceUrl": "https://gong.yoga/tarifas/",
+            "lastVerified": "2026-05-02"
+          },
+          {
+            "sessions": 3,
+            "price": 50,
+            "label": "Pack 3 clases prueba",
+            "sourceUrl": "https://gong.yoga/tarifas/",
+            "lastVerified": "2026-05-02"
+          }
+        ],
+        "trial": {
+          "type": "paga",
+          "price": 15,
+          "details": "Primera clase 15€",
+          "sourceUrl": "https://gong.yoga/tarifas/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Tarifas comunes para barre, pilates, fuerza y yoga. Segunda ubicación en La Moraleja (fuera del scope Madrid centro)."
+      },
+      "highlights": [
+        "Barre + Pilates + Yoga + Fuerza",
+        "Trimestral 15 sesiones × 280€",
+        "Estudio multidisciplinar"
+      ],
+      "description": "GONG Chamberí (Paseo Martínez Campos 24) es un estudio multidisciplinar con clases de barre, pilates suelo, pilates máquina, yoga y fuerza. Mensual 1 día/semana 95€, trimestral 15 sesiones 280€.",
+      "lastVerified": "2026-05-02"
+    }
+  ]
+}
