@@ -3,6 +3,7 @@ import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Analytics } from "@/components/Analytics";
 import {
   DEFAULT_DESCRIPTION,
   SITE_NAME,
@@ -132,6 +133,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={jsonLdScript(websiteLD)}
         />
+        <Analytics />
       </body>
     </html>
   );
