@@ -54,12 +54,36 @@ export default async function StudioPage({ params }: Props) {
         .slice(0, 3)
     : [];
 
+  const monthlyPlans = studio.pricing.monthlyPlans ?? [];
+  const monthlyPrices = monthlyPlans.map((p) => p.price);
+  const offers =
+    monthlyPrices.length > 0
+      ? {
+          "@type": "AggregateOffer",
+          priceCurrency: "EUR",
+          lowPrice: Math.min(...monthlyPrices),
+          highPrice: Math.max(...monthlyPrices),
+          offerCount: monthlyPlans.length,
+          offers: monthlyPlans.slice(0, 5).map((p) => ({
+            "@type": "Offer",
+            name: p.label,
+            price: p.price,
+            priceCurrency: "EUR",
+            url: studio.contact.website,
+            availability: "https://schema.org/InStock",
+            validFrom: p.lastVerified,
+          })),
+        }
+      : undefined;
+
   const sportsLD = {
     "@context": "https://schema.org",
-    "@type": "SportsActivityLocation",
+    "@type": ["SportsActivityLocation", "LocalBusiness"],
+    "@id": `${SITE_URL}/estudios/${slug}/#studio`,
     name: studio.name,
     description: studio.description,
     url: studio.contact.website,
+    image: studio.image?.url,
     telephone: studio.contact.phone ?? undefined,
     email: studio.contact.email ?? undefined,
     address: studio.address.street
@@ -68,6 +92,7 @@ export default async function StudioPage({ params }: Props) {
           streetAddress: studio.address.street,
           postalCode: studio.address.postalCode ?? undefined,
           addressLocality: studio.address.city,
+          addressRegion: "Madrid",
           addressCountry: "ES",
         }
       : undefined,
@@ -82,7 +107,14 @@ export default async function StudioPage({ params }: Props) {
       studio.pricing.fromMonthly != null
         ? `€${studio.pricing.fromMonthly}–€${studio.pricing.monthlyPlans?.slice(-1)[0]?.price ?? studio.pricing.fromMonthly}/mes`
         : undefined,
-    sport: "Pilates",
+    sport: studio.modalities.includes("barre")
+      ? ["Pilates", "Barre"]
+      : "Pilates",
+    makesOffer: offers,
+    knowsAbout: studio.modalities,
+    inLanguage: studio.languages,
+    isAccessibleForFree: false,
+    sameAs: [studio.contact.website].filter(Boolean),
   };
 
   const breadcrumbLD = {

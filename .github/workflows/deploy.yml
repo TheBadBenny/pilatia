@@ -44,6 +44,12 @@ jobs:
       - name: Add .nojekyll (avoid Jekyll processing)
         run: touch out/.nojekyll
 
+      - name: Rename OG image to .png so GitHub Pages serves correct MIME
+        run: |
+          if [ -f out/opengraph-image ]; then
+            mv out/opengraph-image out/og-image.png
+          fi
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

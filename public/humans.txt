@@ -1,0 +1,13 @@
+/* TEAM */
+  Pilatia
+  Contact: hola [at] pilatia.es
+  Site: https://thebadbenny.github.io/pilatia/
+
+/* SITE */
+  Last update: 2026/05/02
+  Standards: HTML5, CSS3, Schema.org, Open Graph, hreflang
+  Languages: Spanish (es-ES)
+  Components: Next.js 16, React 19, Tailwind CSS 4
+  Fonts: Fraunces, Inter (Google Fonts)
+  Hosting: GitHub Pages
+  Methodology: /metodologia/

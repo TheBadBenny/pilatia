@@ -33,6 +33,7 @@ export function buildMetadata({
 }: BuildMetadataArgs): Metadata {
   const url = `${SITE_URL}${path}`;
   const desc = description ?? DEFAULT_DESCRIPTION;
+  const imageUrl = ogImage ?? `${SITE_URL}/og-image.png`;
   return {
     title,
     description: desc,
@@ -48,12 +49,20 @@ export function buildMetadata({
       siteName: SITE_NAME,
       locale: "es_ES",
       type: "website",
-      images: ogImage ? [{ url: ogImage }] : undefined,
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description: desc,
+      images: [imageUrl],
     },
   };
 }

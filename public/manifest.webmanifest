@@ -1,0 +1,13 @@
+{
+  "name": "Pilatia · Pilates y barre en Madrid",
+  "short_name": "Pilatia",
+  "description": "El comparador honesto de estudios de pilates y barre en Madrid. Precios y horarios verificados.",
+  "start_url": "/pilatia/",
+  "scope": "/pilatia/",
+  "display": "standalone",
+  "background_color": "#faf6f1",
+  "theme_color": "#8fa68e",
+  "lang": "es-ES",
+  "dir": "ltr",
+  "categories": ["health", "fitness", "lifestyle"]
+}
