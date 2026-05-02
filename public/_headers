@@ -1,0 +1,35 @@
+# Cloudflare Pages headers config
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+# Static assets — cache aggressively (immutable, content-hashed by Next.js)
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts served by next/font
+/_next/static/media/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# OG image — refresh daily
+/og-image.png
+  Cache-Control: public, max-age=86400
+
+# Sitemap and robots — short cache so search engines see updates
+/sitemap.xml
+  Cache-Control: public, max-age=600
+
+/robots.txt
+  Cache-Control: public, max-age=600
+
+# Manifest
+/manifest.webmanifest
+  Cache-Control: public, max-age=86400
+  Content-Type: application/manifest+json
+
+# Default HTML — moderate cache, revalidate on each visit via stale-while-revalidate
+/*
+  Cache-Control: public, max-age=600, s-maxage=3600, stale-while-revalidate=86400
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(self), camera=(), microphone=(), payment=()
