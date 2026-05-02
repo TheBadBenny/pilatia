@@ -67,7 +67,7 @@ export function MobileMenu() {
           role="dialog"
           aria-modal="true"
           aria-label="Menú de navegación"
-          className="fixed inset-0 z-50 flex animate-fade-in flex-col bg-cream"
+          className="fixed inset-0 z-50 flex flex-col bg-cream"
         >
           {/* Top bar — same look as header */}
           <div className="border-b border-line bg-cream/85 backdrop-blur-md">
