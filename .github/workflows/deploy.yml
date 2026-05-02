@@ -18,8 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      NEXT_PUBLIC_BASE_PATH: /pilatia
-      NEXT_PUBLIC_SITE_URL: https://thebadbenny.github.io/pilatia
+      NEXT_PUBLIC_SITE_URL: https://pilatia.es
       NEXT_PUBLIC_CF_BEACON_TOKEN: 011162f699d043a0ba71ff46d0ec1354
     steps:
       - name: Checkout
