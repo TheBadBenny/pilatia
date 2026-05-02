@@ -20,6 +20,14 @@
     "casa-barre-ayala": { "lat": 40.4283, "lng": -3.6790 },
     "casa-barre-fernando-el-santo": { "lat": 40.4310, "lng": -3.6920 },
     "boutique-barre-madrid": { "lat": 40.4290, "lng": -3.6712 },
-    "gong-chamberi": { "lat": 40.4348, "lng": -3.6940 }
+    "gong-chamberi": { "lat": 40.4348, "lng": -3.6940 },
+    "siamo-pilates-centro": { "lat": 40.4135, "lng": -3.7100 },
+    "siamo-pilates-moncloa": { "lat": 40.4364, "lng": -3.7140 },
+    "siamo-pilates-salamanca": { "lat": 40.4360, "lng": -3.6650 },
+    "estacion-pilates": { "lat": 40.4400, "lng": -3.6675 },
+    "estudio-a-pilates": { "lat": 40.4180, "lng": -3.6700 },
+    "esbarre-lopez-de-hoyos": { "lat": 40.4339, "lng": -3.6786 },
+    "esbarre-trafalgar": { "lat": 40.4329, "lng": -3.7028 },
+    "barrelatte": { "lat": 40.4360, "lng": -3.7019 }
   }
 }

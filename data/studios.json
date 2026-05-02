@@ -1486,6 +1486,464 @@
       ],
       "description": "GONG Chamberí (Paseo Martínez Campos 24) es un estudio multidisciplinar con clases de barre, pilates suelo, pilates máquina, yoga y fuerza. Mensual 1 día/semana 95€, trimestral 15 sesiones 280€.",
       "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "siamo-pilates-centro",
+      "name": "Siamo Pilates Centro",
+      "barrios": ["centro", "la-latina"],
+      "district": "Centro",
+      "address": {
+        "street": "Calle de Isabel Tintero, 3",
+        "postalCode": "28005",
+        "city": "Madrid",
+        "note": "Embajadores · borde con La Latina"
+      },
+      "contact": {
+        "phone": "+34 653 18 86 47",
+        "email": null,
+        "website": "https://www.siamopilates.com/"
+      },
+      "modalities": ["reformer", "tower", "chair"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Grupos reducidos en máquinas" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 65,
+        "monthlyPlans": [
+          { "modality": "reformer", "sessionsPerWeek": 1, "price": 65, "label": "1 sesión/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 2, "price": 115, "label": "2 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 3, "price": 160, "label": "3 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 4, "price": 205, "label": "4 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 1, "price": 55, "label": "1 sesión/semana mañanas (12-14h, 15-16h)", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02", "note": "Horario reducido más barato" },
+          { "modality": "reformer", "sessionsPerWeek": 2, "price": 100, "label": "2 sesiones/semana mañanas", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" }
+        ],
+        "private": {
+          "fourPack": 155,
+          "eightPack": 285,
+          "sourceUrl": "https://www.siamopilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "packages": [
+          { "sessions": 3, "price": 95, "label": "Bono iniciación (3 privadas)", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" }
+        ],
+        "trial": {
+          "type": "paga",
+          "price": 18,
+          "details": "Clase de prueba",
+          "sourceUrl": "https://www.siamopilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Tarifas comunes a las 3 ubicaciones de Siamo Pilates en Madrid."
+      },
+      "highlights": [
+        "Pilates con máquinas tecnología nueva",
+        "1ª clase de prueba 18€",
+        "Tarifa mañanas más barata (12-14h y 15-16h)"
+      ],
+      "description": "Siamo Pilates Centro, en la calle Isabel Tintero (Embajadores, borde con La Latina). Estudio con tecnología de última generación de Reformer, torre y silla. Tarifa mañanas más asequible y bono de iniciación 3 privadas a 95€.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "siamo-pilates-moncloa",
+      "name": "Siamo Pilates Moncloa",
+      "barrios": ["moncloa"],
+      "district": "Moncloa-Aravaca",
+      "address": {
+        "street": "Calle de Andrés Mellado, 19",
+        "postalCode": "28015",
+        "city": "Madrid",
+        "note": "Argüelles"
+      },
+      "contact": {
+        "phone": "+34 653 18 86 47",
+        "email": null,
+        "website": "https://www.siamopilates.com/"
+      },
+      "modalities": ["reformer", "tower", "chair"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Grupos reducidos en máquinas" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 65,
+        "monthlyPlans": [
+          { "modality": "reformer", "sessionsPerWeek": 1, "price": 65, "label": "1 sesión/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 2, "price": 115, "label": "2 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 3, "price": 160, "label": "3 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 4, "price": 205, "label": "4 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" }
+        ],
+        "private": {
+          "fourPack": 155,
+          "eightPack": 285,
+          "sourceUrl": "https://www.siamopilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 18,
+          "details": "Clase de prueba",
+          "sourceUrl": "https://www.siamopilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Tarifas comunes a las 3 ubicaciones de Siamo Pilates en Madrid."
+      },
+      "highlights": [
+        "Pilates con máquinas en Argüelles",
+        "1ª clase de prueba 18€",
+        "Tres ubicaciones de la cadena"
+      ],
+      "description": "Siamo Pilates en Argüelles (Andrés Mellado 19), parte de la cadena Siamo. Pilates con máquinas en grupos reducidos. Bono iniciación de 3 privadas a 95€ y clase de prueba a 18€.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "siamo-pilates-salamanca",
+      "name": "Siamo Pilates Salamanca",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle Francisco Silvela, 76",
+        "postalCode": "28028",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 653 18 86 47",
+        "email": null,
+        "website": "https://www.siamopilates.com/"
+      },
+      "modalities": ["reformer", "tower", "chair"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Grupos reducidos en máquinas" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 65,
+        "monthlyPlans": [
+          { "modality": "reformer", "sessionsPerWeek": 1, "price": 65, "label": "1 sesión/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 2, "price": 115, "label": "2 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 3, "price": 160, "label": "3 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 4, "price": 205, "label": "4 sesiones/semana grupos", "sourceUrl": "https://www.siamopilates.com/precios/", "lastVerified": "2026-05-02" }
+        ],
+        "private": {
+          "fourPack": 155,
+          "eightPack": 285,
+          "sourceUrl": "https://www.siamopilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 18,
+          "details": "Clase de prueba",
+          "sourceUrl": "https://www.siamopilates.com/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Tarifas comunes a las 3 ubicaciones de Siamo Pilates en Madrid."
+      },
+      "highlights": [
+        "Pilates con máquinas en Salamanca",
+        "Cadena con 3 ubicaciones",
+        "Tarifa básica 65€/mes 1 día semana"
+      ],
+      "description": "Siamo Pilates en Salamanca (Francisco Silvela 76), parte de la cadena Siamo con tecnología de última generación. Bono iniciación 3 privadas a 95€ y clase de prueba a 18€.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "estacion-pilates",
+      "name": "Estación Pilates",
+      "barrios": ["chamartin"],
+      "district": "Chamartín",
+      "address": {
+        "street": "Calle Marcenado, 36",
+        "postalCode": "28002",
+        "city": "Madrid",
+        "note": "Barrio de Prosperidad"
+      },
+      "contact": {
+        "phone": "+34 600 33 09 87",
+        "email": "info@estacionpilates.es",
+        "website": "https://estacionpilates.es/"
+      },
+      "modalities": ["reformer"],
+      "verticals": [],
+      "groupSize": { "max": 8, "note": "Pilates Máquina máx. 8 personas" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "L-V 9:00-22:00",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 75,
+        "monthlyPlans": [
+          { "modality": "reformer", "sessionsPerWeek": 1, "price": 75, "label": "1 clase/semana grupo · mañanas", "sourceUrl": "https://estacionpilates.es/precios/", "lastVerified": "2026-05-02", "note": "Tarifa mañanas reducida" },
+          { "modality": "reformer", "sessionsPerWeek": 1, "price": 82, "label": "1 clase/semana grupo · tarifa estándar", "sourceUrl": "https://estacionpilates.es/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 2, "price": 125, "label": "2 clases/semana grupo · mañanas", "sourceUrl": "https://estacionpilates.es/precios/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 2, "price": 132, "label": "2 clases/semana grupo · tarifa estándar", "sourceUrl": "https://estacionpilates.es/precios/", "lastVerified": "2026-05-02" }
+        ],
+        "packages": [
+          { "sessions": 6, "price": 127, "label": "Bono 6 clases grupo", "sourceUrl": "https://estacionpilates.es/precios/", "lastVerified": "2026-05-02" }
+        ],
+        "private": {
+          "single": 50,
+          "fourPack": 190,
+          "sixPack": 260,
+          "eightPack": 325,
+          "sourceUrl": "https://estacionpilates.es/precios/",
+          "lastVerified": "2026-05-02",
+          "note": "Privadas 1 persona — también semiprivadas 2 personas desde 72€/clase"
+        },
+        "dropIn": {
+          "modality": "reformer",
+          "price": 24,
+          "label": "Clase suelta grupo",
+          "sourceUrl": "https://estacionpilates.es/precios/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 30,
+          "details": "Prueba privada (30€) o semiprivada (45€)",
+          "sourceUrl": "https://estacionpilates.es/precios/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Tarifa mañanas más barata desde 75€/mes",
+        "Drop-in grupo a 24€",
+        "Privadas y semiprivadas disponibles"
+      ],
+      "description": "Estación Pilates en Prosperidad (Chamartín), Calle Marcenado 36. Pilates con máquinas en grupos de máx. 8 personas, también clases privadas y semiprivadas. Tarifa mañanas más asequible desde 75€/mes.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "estudio-a-pilates",
+      "name": "estudio A pilates",
+      "barrios": ["retiro"],
+      "district": "Retiro",
+      "address": {
+        "street": "Calle Doctor Esquerdo, 82, local 2",
+        "postalCode": "28007",
+        "city": "Madrid",
+        "note": "Niño Jesús · borde con Salamanca"
+      },
+      "contact": {
+        "phone": "+34 613 00 71 59",
+        "email": "hola@estudioapilates.com",
+        "website": "https://estudioapilates.com/"
+      },
+      "modalities": ["reformer", "mat"],
+      "verticals": ["embarazadas", "posparto", "senior"],
+      "groupSize": { "max": 6, "note": "Grupos por nivel" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "L-V 9:00-21:30",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 55,
+        "monthlyPlans": [
+          { "modality": "mixed", "sessionsPerWeek": 1, "price": 75, "label": "Grupo 1 clase/semana", "sourceUrl": "https://estudioapilates.com/pages/precios", "lastVerified": "2026-05-02" },
+          { "modality": "mixed", "sessionsPerWeek": 2, "price": 130, "label": "Grupo 2 clases/semana", "sourceUrl": "https://estudioapilates.com/pages/precios", "lastVerified": "2026-05-02" }
+        ],
+        "verticalPlans": [
+          { "vertical": "senior", "sessionsPerWeek": 1, "price": 55, "sourceUrl": "https://estudioapilates.com/pages/precios", "lastVerified": "2026-05-02" },
+          { "vertical": "senior", "sessionsPerWeek": 2, "price": 90, "sourceUrl": "https://estudioapilates.com/pages/precios", "lastVerified": "2026-05-02" }
+        ],
+        "private": {
+          "single": 52,
+          "fourPack": 188,
+          "sixPack": 267,
+          "eightPack": 336,
+          "sourceUrl": "https://estudioapilates.com/pages/precios",
+          "lastVerified": "2026-05-02"
+        },
+        "duos": [
+          { "single": 62, "fourPack": 228, "sixPack": 327, "eightPack": 416, "label": "Semiprivada 2 personas", "sourceUrl": "https://estudioapilates.com/pages/precios", "lastVerified": "2026-05-02" }
+        ]
+      },
+      "highlights": [
+        "Programas para embarazadas, posparto y +65",
+        "Grupos máx. 6 por nivel",
+        "Tarifa senior desde 55€/mes"
+      ],
+      "description": "estudio A pilates en Niño Jesús (Retiro), Doctor Esquerdo 82. Programas específicos para embarazo, posparto y mayores de 65 años. Grupos por nivel de máx. 6 personas, privadas, semiprivadas y tarifa senior.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "esbarre-lopez-de-hoyos",
+      "name": "esBarré López de Hoyos",
+      "barrios": ["salamanca"],
+      "district": "Salamanca",
+      "address": {
+        "street": "Calle de López de Hoyos, 13",
+        "postalCode": "28006",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 613 82 25 17",
+        "email": "infolopezdehoyos@esbarre.es",
+        "website": "https://esbarre.es/"
+      },
+      "modalities": ["barre"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Estudio sólo para mujeres" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 72,
+        "monthlyPlans": [
+          { "modality": "barre", "sessionsPerMonth": 5, "price": 72, "label": "Membresía 5 clases/mes", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02", "note": "Cancelable a los 3 meses" },
+          { "modality": "barre", "sessionsPerMonth": 8, "price": 95, "label": "Membresía 8 clases/mes", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 12, "price": 115, "label": "Membresía 12 clases/mes", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": null, "price": 130, "label": "Membresía ilimitada", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" }
+        ],
+        "packages": [
+          { "sessions": 3, "price": 55, "label": "Bono 3 clases", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "sessions": 5, "price": 80, "label": "Bono 5 clases", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "sessions": 8, "price": 105, "label": "Bono 8 clases", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "sessions": 12, "price": 127, "label": "Bono 12 clases", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "sessions": 0, "price": 144, "label": "Bono ilimitadas (1 mes)", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" }
+        ],
+        "dropIn": {
+          "modality": "barre",
+          "price": 22,
+          "sourceUrl": "https://esbarre.es/comprar/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 14,
+          "details": "Clase de prueba",
+          "sourceUrl": "https://esbarre.es/comprar/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Estudio dedicado a barre, sólo mujeres",
+        "Membresía cancelable a los 3 meses",
+        "1ª clase 14€"
+      ],
+      "description": "esBarré López de Hoyos en Salamanca/Lista, estudio dedicado a barre exclusivamente para mujeres. Clases con cardio o tonificación al ritmo de música. Membresías mensuales cancelables a los 3 meses, desde 72€/mes (5 clases).",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "esbarre-trafalgar",
+      "name": "esBarré Trafalgar",
+      "barrios": ["chamberi"],
+      "district": "Chamberí",
+      "address": {
+        "street": "Calle de Trafalgar, 28",
+        "postalCode": "28010",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 672 58 62 13",
+        "email": "infotrafalgar@esbarre.es",
+        "website": "https://esbarre.es/"
+      },
+      "modalities": ["barre"],
+      "verticals": [],
+      "groupSize": { "max": null, "note": "Estudio sólo para mujeres" },
+      "languages": ["es"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 72,
+        "monthlyPlans": [
+          { "modality": "barre", "sessionsPerMonth": 5, "price": 72, "label": "Membresía 5 clases/mes", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 8, "price": 95, "label": "Membresía 8 clases/mes", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 12, "price": 115, "label": "Membresía 12 clases/mes", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": null, "price": 130, "label": "Membresía ilimitada", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" }
+        ],
+        "packages": [
+          { "sessions": 3, "price": 55, "label": "Bono 3 clases", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" },
+          { "sessions": 5, "price": 80, "label": "Bono 5 clases", "sourceUrl": "https://esbarre.es/comprar/", "lastVerified": "2026-05-02" }
+        ],
+        "dropIn": {
+          "modality": "barre",
+          "price": 22,
+          "sourceUrl": "https://esbarre.es/comprar/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 14,
+          "details": "Clase de prueba",
+          "sourceUrl": "https://esbarre.es/comprar/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Sólo mujeres · barre",
+        "Ubicación en Trafalgar (Chamberí)",
+        "Misma cadena que López de Hoyos"
+      ],
+      "description": "esBarré Trafalgar en Chamberí (Trafalgar 28), segunda ubicación de la cadena esBarré. Estudio dedicado a barre exclusivamente para mujeres. Membresías mensuales desde 72€/mes.",
+      "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "barrelatte",
+      "name": "Barrelatte",
+      "barrios": ["chamberi"],
+      "district": "Chamberí",
+      "address": {
+        "street": "Calle de Bretón de los Herreros, 26",
+        "postalCode": "28010",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": null,
+        "email": "hola@barrelatte.com",
+        "website": "https://www.barrelatte.com/",
+        "instagram": "@barrelatte"
+      },
+      "modalities": ["barre", "mat"],
+      "verticals": [],
+      "groupSize": { "max": null },
+      "languages": ["es"],
+      "amenities": ["matcha", "luz-led", "trabajar-mientras-esperas"],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 139,
+        "monthlyPlans": [
+          { "modality": "barre", "sessionsPerMonth": null, "price": 139, "label": "Ilimitado mensual", "sourceUrl": "https://www.barrelatte.com/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": null, "price": 155, "label": "VIP membership", "sourceUrl": "https://www.barrelatte.com/precios", "lastVerified": "2026-05-02" }
+        ],
+        "packages": [
+          { "sessions": 5, "price": 85, "label": "Bono 5 clases", "validityDays": 30, "sourceUrl": "https://www.barrelatte.com/precios", "lastVerified": "2026-05-02" },
+          { "sessions": 8, "price": 115, "label": "Bono 8 clases", "validityDays": 30, "sourceUrl": "https://www.barrelatte.com/precios", "lastVerified": "2026-05-02" },
+          { "sessions": 10, "price": 128, "label": "Bono 10 clases", "validityDays": 30, "sourceUrl": "https://www.barrelatte.com/precios", "lastVerified": "2026-05-02" }
+        ],
+        "dropIn": {
+          "modality": "barre",
+          "price": 25,
+          "label": "Clase suelta",
+          "sourceUrl": "https://www.barrelatte.com/precios",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 15,
+          "details": "Clase de prueba",
+          "sourceUrl": "https://www.barrelatte.com/precios",
+          "lastVerified": "2026-05-02"
+        },
+        "notes": "Inaugurado en septiembre de 2024. Bono ilimitado 6 meses 780€."
+      },
+      "highlights": [
+        "Barre + pilates con cafetería de matcha",
+        "Bono ilimitado mensual 139€",
+        "Aparatología cosmética en sala"
+      ],
+      "description": "Barrelatte en Bretón de los Herreros 26 (Chamberí, Almagro). Estudio multifuncional inaugurado en 2024 que mezcla clases de barre y pilates con cafetería de matcha y aparatología cosmética. Bono ilimitado mensual 139€, prueba 15€.",
+      "lastVerified": "2026-05-02"
     }
   ]
 }
