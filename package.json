@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "playwright test tests/e2e/header.spec.ts",
+    "test:all": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:local": "PLAYWRIGHT_BASE_URL=http://localhost:3000 playwright test tests/e2e/header.spec.ts"
   },
   "dependencies": {
     "next": "16.2.4",
