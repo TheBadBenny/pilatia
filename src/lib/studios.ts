@@ -1,21 +1,27 @@
 import studiosData from "../../data/studios.json";
 import barriosData from "../../data/barrios.json";
 import coordsData from "../../data/studio-coords.json";
+import imagesData from "../../data/studio-images.json";
 import type {
   Barrio,
   BarriosFile,
   Coords,
   Studio,
+  StudioImage,
   StudiosFile,
 } from "./types";
 
 const studiosFile = studiosData as StudiosFile;
 const barriosFile = barriosData as BarriosFile;
 const coordsByslug = (coordsData as { coords: Record<string, Coords> }).coords;
+const imagesBySlug = (
+  imagesData as { images: Record<string, StudioImage> }
+).images;
 
 const STUDIOS: Studio[] = studiosFile.studios.map((s) => ({
   ...s,
   coords: coordsByslug[s.slug],
+  image: imagesBySlug[s.slug],
 }));
 
 export function getAllStudios(): Studio[] {

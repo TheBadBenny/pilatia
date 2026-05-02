@@ -123,6 +123,11 @@ export interface GroupSize {
   note?: string;
 }
 
+export interface StudioImage {
+  url: string;
+  credit: string;
+}
+
 export interface Studio {
   slug: string;
   name: string;
@@ -142,6 +147,7 @@ export interface Studio {
   rating?: { source: string; score: number; count: number };
   lastVerified: string;
   coords?: Coords;
+  image?: StudioImage;
 }
 
 export interface StudiosFile {
