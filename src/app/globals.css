@@ -107,6 +107,32 @@ h4 {
   animation: slide-in-right 0.28s cubic-bezier(0.32, 0.72, 0, 1) both;
 }
 
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.animate-slide-out-right {
+  animation: slide-out-right 0.24s cubic-bezier(0.4, 0, 0.6, 1) both;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-fade-out {
+  animation: fade-out 0.24s ease-in both;
+}
+
 /* Stagger fade-up for children of a grid */
 .stagger-children > * {
   opacity: 0;

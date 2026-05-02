@@ -1,22 +1,50 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { LogoMark } from "./LogoMark";
 
+const CLOSE_ANIM_MS = 240;
+
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const [closing, setClosing] = useState(false);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
+  const handleClose = useCallback(() => {
+    if (!open || closing) return;
+    setClosing(true);
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => {
+      setOpen(false);
+      setClosing(false);
+      closeTimer.current = null;
+    }, CLOSE_ANIM_MS);
+  }, [open, closing]);
+
+  // Cleanup pending timer on unmount
   useEffect(() => {
+    return () => {
+      if (closeTimer.current) clearTimeout(closeTimer.current);
+    };
+  }, []);
+
+  // Close on route change (instant — page already navigated)
+  useEffect(() => {
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
     setOpen(false);
+    setClosing(false);
   }, [pathname]);
 
   useEffect(() => {
@@ -33,21 +61,21 @@ export function MobileMenu() {
   useEffect(() => {
     if (!open) return;
     function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") handleClose();
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [open]);
+  }, [open, handleClose]);
 
   const drawer = open ? (
     <div className="fixed inset-0 z-50 md:hidden">
-      {/* Backdrop — clickable to close */}
-      <button
-        type="button"
-        tabIndex={-1}
-        aria-label="Cerrar menú"
-        onClick={() => setOpen(false)}
-        className="absolute inset-0 animate-fade-in bg-ink/45 backdrop-blur-[2px]"
+      {/* Backdrop — clickable to close (no aria, sr users have X button) */}
+      <div
+        aria-hidden="true"
+        onClick={handleClose}
+        className={`absolute inset-0 cursor-pointer bg-ink/45 backdrop-blur-[2px] ${
+          closing ? "animate-fade-out" : "animate-fade-in"
+        }`}
       />
 
       {/* Drawer panel sliding from the right */}
@@ -55,14 +83,16 @@ export function MobileMenu() {
         role="dialog"
         aria-modal="true"
         aria-label="Menú de navegación"
-        className="absolute right-0 top-0 bottom-0 flex w-[85vw] max-w-sm animate-slide-in-right flex-col bg-cream shadow-[-14px_0_40px_-12px_rgba(42,38,34,0.22)]"
+        className={`absolute right-0 top-0 bottom-0 flex w-[85vw] max-w-sm flex-col bg-cream shadow-[-14px_0_40px_-12px_rgba(42,38,34,0.22)] ${
+          closing ? "animate-slide-out-right" : "animate-slide-in-right"
+        }`}
       >
         {/* Top bar */}
         <div className="border-b border-line">
           <div className="flex items-center justify-between gap-4 px-5 py-4">
             <Link
               href="/"
-              onClick={() => setOpen(false)}
+              onClick={handleClose}
               className="flex items-center gap-2 text-ink"
             >
               <LogoMark className="text-sage" />
@@ -70,7 +100,7 @@ export function MobileMenu() {
             </Link>
             <button
               type="button"
-              onClick={() => setOpen(false)}
+              onClick={handleClose}
               aria-label="Cerrar menú"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-cream text-ink transition-colors hover:border-sage"
             >
