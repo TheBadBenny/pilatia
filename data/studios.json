@@ -1952,6 +1952,70 @@
       ],
       "description": "Barrelatte en Bretón de los Herreros 26 (Chamberí, Almagro). Estudio multifuncional inaugurado en 2024 que mezcla clases de barre y pilates con cafetería de matcha y aparatología cosmética. Bono ilimitado mensual 139€, prueba 15€.",
       "lastVerified": "2026-05-02"
+    },
+    {
+      "slug": "temple-pilates",
+      "name": "Temple Pilates",
+      "barrios": ["centro"],
+      "district": "Centro",
+      "address": {
+        "street": "Gran Vía, 17A",
+        "postalCode": "28013",
+        "city": "Madrid"
+      },
+      "contact": {
+        "phone": "+34 603 15 75 90",
+        "email": null,
+        "website": "https://templepilates.es/"
+      },
+      "modalities": ["reformer"],
+      "verticals": [],
+      "groupSize": { "max": 4, "note": "Grupos reducidos + privadas, duets y trios" },
+      "languages": ["es", "en"],
+      "amenities": [],
+      "hours": "no encontrado",
+      "pricing": {
+        "disclosed": true,
+        "fromMonthly": 99,
+        "monthlyPlans": [
+          { "modality": "reformer", "sessionsPerWeek": 1, "price": 99, "label": "Mensual 1 clase/semana", "sourceUrl": "https://templepilates.es/en/pricing/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 2, "price": 189, "label": "Mensual 2 clases/semana", "sourceUrl": "https://templepilates.es/en/pricing/", "lastVerified": "2026-05-02" },
+          { "modality": "reformer", "sessionsPerWeek": 3, "price": 269, "label": "Mensual 3 clases/semana", "sourceUrl": "https://templepilates.es/en/pricing/", "lastVerified": "2026-05-02" }
+        ],
+        "packages": [
+          { "sessions": 3, "price": 59, "label": "Intro pack (3 clases · 2 semanas)", "sourceUrl": "https://templepilates.es/en/pricing/", "lastVerified": "2026-05-02" },
+          { "sessions": 5, "price": 150, "label": "Pack 5 sesiones · 6 semanas", "sourceUrl": "https://templepilates.es/en/pricing/", "lastVerified": "2026-05-02" },
+          { "sessions": 10, "price": 275, "label": "Pack 10 sesiones · 10 semanas", "sourceUrl": "https://templepilates.es/en/pricing/", "lastVerified": "2026-05-02" }
+        ],
+        "private": {
+          "single": 70,
+          "fivePack": 330,
+          "sourceUrl": "https://templepilates.es/en/pricing/",
+          "lastVerified": "2026-05-02",
+          "note": "Duet 90€ (45€/pers.), Trio 120€ (40€/pers.)"
+        },
+        "dropIn": {
+          "modality": "reformer",
+          "price": 35,
+          "label": "Clase suelta",
+          "sourceUrl": "https://templepilates.es/en/pricing/",
+          "lastVerified": "2026-05-02"
+        },
+        "trial": {
+          "type": "paga",
+          "price": 25,
+          "details": "Trial class 25€ (privada inicial 55€)",
+          "sourceUrl": "https://templepilates.es/en/pricing/",
+          "lastVerified": "2026-05-02"
+        }
+      },
+      "highlights": [
+        "Reformer en pleno Gran Vía",
+        "Intro pack 3 clases × 59€",
+        "Privadas, duets y trios"
+      ],
+      "description": "Temple Pilates en Gran Vía 17A (Centro), reformer pilates con grupos reducidos y opciones de privada/duet/trio. Intro pack 59€/3 clases, mensualidades desde 99€. Bilingüe español/inglés.",
+      "lastVerified": "2026-05-02"
     }
   ]
 }

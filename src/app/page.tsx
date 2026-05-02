@@ -12,9 +12,9 @@ import {
 import { buildMetadata, jsonLdScript } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Encuentra tu estudio de pilates en Madrid",
+  title: "Encuentra tu estudio de pilates y barre en Madrid",
   description:
-    "Compara precios, horarios y modalidades de los estudios de pilates de Madrid. Datos verificados estudio a estudio. Sin afiliaciones.",
+    "Comparamos precios, horarios y modalidades de los estudios de pilates y barre de Madrid. Reformer, suelo, máquinas, barre. Datos verificados estudio a estudio. Sin afiliaciones.",
   path: "/",
 });
 
@@ -58,7 +58,7 @@ export default function HomePage() {
         </div>
         <div className="relative mx-auto max-w-6xl px-5 pb-20 pt-16 sm:pb-28 sm:pt-24">
           <p className="animate-fade-up text-xs uppercase tracking-[0.22em] text-ink-soft">
-            Pilates en Madrid
+            Pilates y barre en Madrid
           </p>
           <h1
             className="animate-fade-up mt-4 max-w-4xl font-display text-[2.6rem] leading-[1.05] text-ink sm:text-6xl md:text-7xl"
@@ -66,30 +66,38 @@ export default function HomePage() {
           >
             Encuentra tu estudio
             <br className="hidden sm:block" />
-            <span className="text-sage"> de pilates</span> en Madrid.
+            <span className="text-sage">de pilates</span> y{" "}
+            <span className="text-terra">barre</span> en Madrid.
           </h1>
           <p
             className="animate-fade-up mt-6 max-w-xl text-lg text-ink-soft"
             style={{ animationDelay: "180ms" }}
           >
-            Comparamos precios, horarios y ambiente de los mejores estudios de
-            la ciudad. Datos verificados a mano. Sin afiliaciones.
+            Comparamos precios, horarios y modalidades de los mejores estudios
+            de la ciudad: reformer, suelo, máquinas, barre. Datos verificados
+            a mano. Sin afiliaciones.
           </p>
           <div
             className="animate-fade-up mt-9 flex flex-wrap gap-3"
             style={{ animationDelay: "260ms" }}
           >
             <Link
-              href="/precios/"
+              href="/pilates-madrid/"
               className="inline-flex items-center rounded-full bg-sage px-6 py-3 text-cream transition-colors hover:bg-ink"
             >
-              Explorar estudios
+              Pilates en Madrid
+            </Link>
+            <Link
+              href="/barre-madrid/"
+              className="inline-flex items-center rounded-full bg-terra px-6 py-3 text-cream transition-colors hover:bg-ink"
+            >
+              Barre en Madrid
             </Link>
             <Link
               href="#cerca-de-mi"
               className="inline-flex items-center rounded-full border border-line bg-cream/70 px-6 py-3 text-ink transition-colors hover:border-sage hover:text-sage"
             >
-              Ver los más cercanos →
+              Cerca de mí →
             </Link>
           </div>
           <div

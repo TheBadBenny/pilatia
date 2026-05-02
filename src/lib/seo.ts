@@ -3,13 +3,25 @@ import type { Metadata } from "next";
 export const SITE_NAME = "Pilatia";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://pilatia.es";
 export const DEFAULT_DESCRIPTION =
-  "El comparador de estudios de pilates de Madrid. Precios, horarios y modalidades verificados estudio a estudio. Sin afiliaciones.";
+  "El comparador honesto de estudios de pilates y barre en Madrid. Precios, horarios y modalidades verificados estudio a estudio. Reformer, máquinas, suelo, barre. Sin afiliaciones.";
+
+export const DEFAULT_KEYWORDS = [
+  "pilates Madrid",
+  "barre Madrid",
+  "barre pilates Madrid",
+  "reformer pilates Madrid",
+  "estudios pilates Madrid",
+  "clases pilates Madrid",
+  "comparador pilates",
+  "precios pilates Madrid",
+];
 
 interface BuildMetadataArgs {
   title: string;
   description?: string;
   path?: string;
   ogImage?: string;
+  keywords?: string[];
 }
 
 export function buildMetadata({
@@ -17,12 +29,14 @@ export function buildMetadata({
   description,
   path = "/",
   ogImage,
+  keywords,
 }: BuildMetadataArgs): Metadata {
   const url = `${SITE_URL}${path}`;
   const desc = description ?? DEFAULT_DESCRIPTION;
   return {
     title,
     description: desc,
+    keywords: keywords ?? DEFAULT_KEYWORDS,
     alternates: {
       canonical: url,
       languages: { "es-ES": url },

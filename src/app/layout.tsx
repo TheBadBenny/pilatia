@@ -28,20 +28,39 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} · Comparador de estudios de pilates en Madrid`,
+    default: `${SITE_NAME} · Pilates y barre en Madrid: comparador de estudios`,
     template: `%s · ${SITE_NAME}`,
   },
   description: DEFAULT_DESCRIPTION,
+  keywords: [
+    "pilates Madrid",
+    "barre Madrid",
+    "barre pilates Madrid",
+    "reformer pilates Madrid",
+    "estudios pilates Madrid",
+    "comparador pilates Madrid",
+  ],
   alternates: {
     canonical: SITE_URL,
     languages: { "es-ES": SITE_URL },
   },
   openGraph: {
-    title: `${SITE_NAME} · Comparador de estudios de pilates en Madrid`,
+    title: `${SITE_NAME} · Pilates y barre en Madrid: comparador de estudios`,
     description: DEFAULT_DESCRIPTION,
     siteName: SITE_NAME,
     locale: "es_ES",
     type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
   },
 };
 

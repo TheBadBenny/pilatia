@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <footer className="mt-24 border-t border-line bg-sand">
       <div className="mx-auto max-w-6xl px-5 py-14">
-        <div className="grid gap-12 md:grid-cols-12">
+        <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-4">
             <Link
               href="/"
@@ -19,8 +19,8 @@ export function Footer() {
               <span className="font-display text-3xl">Pilatia</span>
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-soft">
-              El comparador honesto de pilates en Madrid. Precios y horarios
-              verificados estudio a estudio. Sin afiliaciones.
+              El comparador honesto de pilates y barre en Madrid. Precios y
+              horarios verificados estudio a estudio. Sin afiliaciones.
             </p>
             <a
               href="mailto:hola@pilatia.es"
@@ -30,11 +30,39 @@ export function Footer() {
             </a>
           </div>
 
-          <div className="md:col-span-5">
+          <div className="md:col-span-3">
+            <h4 className="mb-4 text-xs uppercase tracking-[0.18em] text-ink-soft">
+              Por modalidad
+            </h4>
+            <ul className="grid gap-2 text-sm">
+              <li>
+                <Link href="/pilates-madrid/" className="text-ink transition-colors hover:text-sage">
+                  Pilates en Madrid
+                </Link>
+              </li>
+              <li>
+                <Link href="/barre-madrid/" className="text-ink transition-colors hover:text-sage">
+                  Barre en Madrid
+                </Link>
+              </li>
+              <li>
+                <Link href="/reformer-pilates-madrid/" className="text-ink transition-colors hover:text-sage">
+                  Reformer pilates Madrid
+                </Link>
+              </li>
+              <li>
+                <Link href="/precios/" className="text-ink transition-colors hover:text-sage">
+                  Comparativa de precios
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="md:col-span-3">
             <h4 className="mb-4 text-xs uppercase tracking-[0.18em] text-ink-soft">
               Por barrio
             </h4>
-            <ul className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm sm:grid-cols-3">
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
               {primary.map((b) => (
                 <li key={b.slug}>
                   <Link
@@ -58,19 +86,11 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="md:col-span-3">
+          <div className="md:col-span-2">
             <h4 className="mb-4 text-xs uppercase tracking-[0.18em] text-ink-soft">
               Pilatia
             </h4>
             <ul className="grid gap-2 text-sm">
-              <li>
-                <Link
-                  href="/precios/"
-                  className="text-ink transition-colors hover:text-sage"
-                >
-                  Comparativa de precios
-                </Link>
-              </li>
               <li>
                 <Link
                   href="/metodologia/"
@@ -84,8 +104,16 @@ export function Footer() {
                   href="/sobre/"
                   className="text-ink transition-colors hover:text-sage"
                 >
-                  Sobre nosotros
+                  Sobre
                 </Link>
+              </li>
+              <li>
+                <a
+                  href="mailto:hola@pilatia.es"
+                  className="text-ink transition-colors hover:text-sage"
+                >
+                  Contacto
+                </a>
               </li>
             </ul>
           </div>
