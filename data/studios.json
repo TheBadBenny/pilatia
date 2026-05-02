@@ -1390,33 +1390,41 @@
       "hours": "Disponible en /horarios",
       "pricing": {
         "disclosed": true,
-        "fromMonthly": null,
-        "monthlyPlansNote": "Mensualidades publicadas en /precios pero no extraídas en esta verificación. Sólo verificamos abiertamente la oferta de bienvenida.",
-        "packages": [
-          {
-            "sessions": 3,
-            "price": 39,
-            "label": "Pack bienvenida 3 clases",
-            "validityDays": 30,
-            "sourceUrl": "https://www.boutiquebarre.me/",
-            "lastVerified": "2026-05-02"
-          }
+        "fromMonthly": 64,
+        "monthlyPlans": [
+          { "modality": "barre", "sessionsPerMonth": 4, "price": 64, "label": "Membresía 4 clases/mes", "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 8, "price": 79, "label": "Early bird 8 clases mañanas", "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02", "note": "Tarifa reducida horario de mañanas" },
+          { "modality": "barre", "sessionsPerMonth": 8, "price": 109, "label": "Membresía 8 clases/mes", "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": 12, "price": 129, "label": "Membresía 12 clases/mes", "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02" },
+          { "modality": "barre", "sessionsPerMonth": null, "price": 155, "label": "Ilimitadas/mes", "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02" }
         ],
+        "packages": [
+          { "sessions": 3, "price": 39, "label": "Pack bienvenida 3 clases", "validityDays": 30, "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02" },
+          { "sessions": 5, "price": 79, "label": "Bono 5 clases", "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02" },
+          { "sessions": 10, "price": 134, "label": "Bono 10 clases", "sourceUrl": "https://www.boutiquebarre.me/precios", "lastVerified": "2026-05-02" }
+        ],
+        "dropIn": {
+          "modality": "barre",
+          "price": 25,
+          "label": "Clase suelta",
+          "sourceUrl": "https://www.boutiquebarre.me/precios",
+          "lastVerified": "2026-05-02"
+        },
         "trial": {
           "type": "paga",
           "price": 15,
-          "details": "Primera clase de prueba",
-          "sourceUrl": "https://www.boutiquebarre.me/",
+          "details": "Primera clase 15€ o 3 clases 39€",
+          "sourceUrl": "https://www.boutiquebarre.me/precios",
           "lastVerified": "2026-05-02"
         },
-        "notes": "Mensualidades publicadas en su web pero no extraídas en esta verificación. Re-verificar para próxima ronda."
+        "notes": "Membresías se renuevan automáticamente cada 30 días. Con membresía, clases adicionales a 10€ en lugar de 22€."
       },
       "highlights": [
-        "Estudio dedicado a barre",
+        "Membresías 64-155€/mes",
         "Pack bienvenida 3 clases × 39€",
-        "Goya 137 (alta Salamanca)"
+        "Tarifa early bird mañanas 79€/mes 8 clases"
       ],
-      "description": "Boutique Barre en pleno barrio de Salamanca (Goya 137). Clases que fusionan técnica de ballet, ejercicios de resistencia y entrenamiento funcional al ritmo de música. Pack de bienvenida de 3 clases por 39€ válido durante 1 mes.",
+      "description": "Boutique Barre en pleno barrio de Salamanca (Goya 137). Clases que fusionan técnica de ballet, ejercicios de resistencia y entrenamiento funcional al ritmo de música. Membresías mensuales 64-155€ (early bird mañanas 79€), pack bienvenida 39€/3 clases.",
       "lastVerified": "2026-05-02"
     },
     {
