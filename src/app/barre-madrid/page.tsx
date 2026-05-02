@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { OrganicShape } from "@/components/OrganicShape";
 import { StudioCard } from "@/components/StudioCard";
+import { Illustration } from "@/components/Illustration";
 import {
   formatPrice,
   fromMonthlyLabel,
@@ -136,19 +137,36 @@ export default function BarreMadridPage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-5xl px-5 pb-12">
+        <div className="grid gap-8 md:grid-cols-2 md:items-center">
+          <Illustration variant="barre" />
+          <div>
+            <h2 className="font-display text-3xl text-ink">¿Qué es el barre?</h2>
+            <p className="mt-3 text-ink-soft">
+              El barre es una disciplina que combina técnica de ballet (con
+              barra), ejercicios de fuerza inspirados en pilates y trabajo
+              cardiovascular en pulsos cortos. Las clases duran 50-60 minutos y
+              se adaptan a todos los niveles. Aporta tonificación, postura,
+              flexibilidad y resistencia sin impacto en las articulaciones.
+            </p>
+            <p className="mt-3 text-sm text-ink-soft">
+              Una clase típica empieza con calentamiento, sigue con bloques de
+              brazos, glúteos, abdomen y muslos en repeticiones cortas, y cierra
+              con estiramientos. Música motivadora durante toda la sesión.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-3xl px-5 pb-12">
         <div className="rounded-2xl border border-line bg-cream p-6 sm:p-8">
-          <h2 className="font-display text-2xl text-ink">¿Qué es el barre?</h2>
+          <h2 className="font-display text-2xl text-ink">El barre en Madrid</h2>
           <p className="mt-3 text-ink-soft">
-            El barre es una disciplina que combina técnica de ballet (con
-            barra), ejercicios de fuerza inspirados en pilates y trabajo
-            cardiovascular en pulsos cortos. Las clases duran 50-60 minutos y se
-            adaptan a todos los niveles. Aporta tonificación, postura,
-            flexibilidad y resistencia sin impacto en las articulaciones.
+            En Madrid el barre se ha consolidado en los últimos 5-6 años. La
+            mayoría de los estudios boutique están en Salamanca y Chamberí.
           </p>
           <p className="mt-3 text-ink-soft">
-            En Madrid el barre se ha consolidado en los últimos 5-6 años, con
-            estudios boutique en Salamanca, Chamberí y Chamartín. Algunos como{" "}
+            Algunos como{" "}
             <Link
               href="/estudios/casa-barre-ayala/"
               className="text-ink underline hover:text-sage"

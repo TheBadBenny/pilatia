@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { OrganicShape } from "@/components/OrganicShape";
 import { StudioCard } from "@/components/StudioCard";
+import { Illustration } from "@/components/Illustration";
 import {
   formatPrice,
   fromMonthlyLabel,
@@ -117,6 +118,30 @@ export default function ReformerMadridPage() {
             </strong>{" "}
             (1 clase/semana en grupo). Drop-in disponible en {hasDropIn} estudios.
           </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-5 pb-12">
+        <div className="grid gap-8 md:grid-cols-2 md:items-center">
+          <Illustration variant="reformer" />
+          <div>
+            <h2 className="font-display text-3xl text-ink">
+              ¿Qué es un reformer?
+            </h2>
+            <p className="mt-3 text-ink-soft">
+              El reformer es la máquina más reconocible del método Pilates: una
+              camilla deslizante con muelles de tensión ajustable, una barra
+              para los pies y correas para manos y pies. Te tumbas, te
+              arrodillas o te sientas sobre la carriage y empujas o tiras
+              contra la resistencia.
+            </p>
+            <p className="mt-3 text-sm text-ink-soft">
+              Permite cientos de ejercicios distintos con resistencia
+              progresiva. Es perfecto para rehabilitación, fortalecimiento
+              global y trabajo de control postural sin impacto en las
+              articulaciones.
+            </p>
+          </div>
         </div>
       </section>
 

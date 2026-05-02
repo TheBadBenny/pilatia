@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { OrganicShape } from "@/components/OrganicShape";
 import { StudioCard } from "@/components/StudioCard";
+import { Illustration } from "@/components/Illustration";
 import {
   formatPrice,
   getAllStudios,
@@ -134,6 +135,43 @@ export default function PilatesMadridPage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-5 pb-16">
+        <div className="mb-8 max-w-2xl">
+          <p className="text-xs uppercase tracking-[0.18em] text-ink-soft">
+            Las 3 modalidades en Madrid
+          </p>
+          <h2 className="mt-2 font-display text-3xl text-ink sm:text-4xl">
+            En qué se diferencian.
+          </h2>
+        </div>
+        <div className="grid gap-6 lg:grid-cols-3">
+          <ModalityCard
+            illustration={<Illustration variant="reformer" />}
+            title="Reformer · máquinas"
+            range="65 € – 200 €+/mes"
+            text="La camilla deslizante con muelles de resistencia ajustable. Permite progresar rápido en fuerza y rehabilitación. Cuesta 30-50 % más que el suelo."
+            link="/reformer-pilates-madrid/"
+            linkLabel="Ver estudios con reformer →"
+          />
+          <ModalityCard
+            illustration={<Illustration variant="mat" />}
+            title="Suelo · mat"
+            range="55 € – 90 €/mes"
+            text="El clásico Joseph Pilates sobre esterilla. Trabajas con tu peso corporal y accesorios mínimos (pelota, banda, círculo). Es la base del método."
+            link="/precios/"
+            linkLabel="Estudios con pilates suelo →"
+          />
+          <ModalityCard
+            illustration={<Illustration variant="barre" />}
+            title="Barre"
+            range="64 € – 155 €/mes"
+            text="Mezcla técnica de ballet (con barra), ejercicios de fuerza y trabajo cardio en pulsos cortos. Tonificación y postura sin impacto."
+            link="/barre-madrid/"
+            linkLabel="Ver estudios de barre →"
+          />
+        </div>
+      </section>
+
       <section className="mx-auto max-w-3xl px-5 pb-12">
         <div className="rounded-2xl border border-line bg-cream p-6 sm:p-8">
           <h2 className="font-display text-2xl text-ink">
@@ -258,6 +296,41 @@ function Stat({ title, value, sub }: { title: string; value: string; sub: string
       </div>
       <div className="mt-2 font-display text-3xl text-ink">{value}</div>
       <div className="mt-1 text-xs text-ink-soft">{sub}</div>
+    </div>
+  );
+}
+
+function ModalityCard({
+  illustration,
+  title,
+  range,
+  text,
+  link,
+  linkLabel,
+}: {
+  illustration: React.ReactNode;
+  title: string;
+  range: string;
+  text: string;
+  link: string;
+  linkLabel: string;
+}) {
+  return (
+    <div className="overflow-hidden rounded-2xl border border-line bg-cream">
+      {illustration}
+      <div className="p-5">
+        <h3 className="font-display text-xl text-ink">{title}</h3>
+        <p className="mt-1 text-xs uppercase tracking-wider text-ink-soft">
+          {range}
+        </p>
+        <p className="mt-3 text-sm text-ink-soft">{text}</p>
+        <Link
+          href={link}
+          className="mt-4 inline-flex text-sm text-ink underline-offset-4 hover:text-sage hover:underline"
+        >
+          {linkLabel}
+        </Link>
+      </div>
     </div>
   );
 }
