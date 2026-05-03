@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node -e \"const fs=require('fs');if(fs.existsSync('out/opengraph-image')){fs.copyFileSync('out/opengraph-image','out/og-image.png');console.log('og-image.png copied');}\"",
     "start": "next start",
     "lint": "eslint",
     "test": "playwright test tests/e2e/header.spec.ts",
