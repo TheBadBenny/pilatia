@@ -126,6 +126,12 @@ export interface GroupSize {
 export interface StudioImage {
   url: string;
   credit: string;
+  /**
+   * If present, basename for self-hosted optimized images at
+   * /img/studios/{localBasename}-{320,640,1024}.webp + 640.jpg fallback.
+   * The component will prefer local over hot-linked.
+   */
+  localBasename?: string;
 }
 
 export interface Studio {

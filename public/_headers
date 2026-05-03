@@ -23,6 +23,11 @@
 /favicon.ico
   Cache-Control: public, max-age=2592000, immutable
 
+# Studio optimized images · 1 año immutable (basename = slug, raras
+# veces cambia · si lo hace, el slug ya cambia y la URL es nueva)
+/img/studios/*
+  Cache-Control: public, max-age=31536000, immutable
+
 # Sitemap and robots — short cache so search engines see updates
 /sitemap.xml
   Cache-Control: public, max-age=600

@@ -1,85 +1,105 @@
 {
   "comment": "URLs de fotos hero/og:image obtenidas de la web oficial de cada estudio. Hot-linkeadas con referrerPolicy=no-referrer y atribución visible en la ficha del estudio. Si un estudio nos pide retirar su imagen, la quitamos en menos de 48h. Estudios sin imagen aquí caen al fallback SVG (StudioVisual con OrganicShape).",
   "images": {
-    "pilates-zentro": {
-      "url": "https://www.pilateszentro.es/wp-content/imagenes/pilates-zentro-pilates-madrid-centro-2021.png",
-      "credit": "pilateszentro.es"
-    },
-    "pinar-pilates": {
-      "url": "https://pinarpilates.com/wp-content/uploads/2024/12/DSC3819-2-scaled.jpg",
-      "credit": "pinarpilates.com"
-    },
-    "elite-pilates": {
-      "url": "https://elitepilates.net/wp-content/uploads/2026/03/t1-selecc-elite-pilates-002.jpg",
-      "credit": "elitepilates.net"
-    },
-    "feel-fit-pilates-madrid": {
-      "url": "https://feelfitmadrid.com/wp-content/uploads/2022/10/Romanas-Pilates-de-calidad-en-Madrid-Las-mejores-clases-con-maquinas-barrio-de-salamanca-Manuel-Becerra.webp",
-      "credit": "feelfitmadrid.com"
-    },
-    "pilates-evidence-madrid": {
-      "url": "https://www.pilatesevidence.com/wp-content/uploads/2022/06/Pilates-Evidence-Elche-Naranjas1_M.png",
-      "credit": "pilatesevidence.com"
-    },
-    "hom-house-of-movement": {
-      "url": "https://images.squarespace-cdn.com/content/v1/684861a4b84c37477f209aaa/6691a0ec-4e96-4313-8f5f-d61477b7d81b/HOM_Landing+Page_Main+Image_01%402x.jpg",
-      "credit": "hommadrid.com"
-    },
     "arete-pilates-estudio": {
       "url": "https://estudioarete.com/wp-content/uploads/2025/09/1.5-1-scaled-e1757671466692-1024x430.jpg",
-      "credit": "estudioarete.com"
-    },
-    "pilates-garbriele": {
-      "url": "https://pilatesgarbriele.com/wp-content/uploads/2024/07/pilates_garbriele_suelo.jpg",
-      "credit": "pilatesgarbriele.com"
-    },
-    "olimpia": {
-      "url": "https://cdn.prod.website-files.com/674c5203280c7d69f0772c8f/69bae7a65a47c2012979fc97_BANNER-DOWNLOAD-APP.png",
-      "credit": "olimpiatwc.com"
-    },
-    "boutique-barre-madrid": {
-      "url": "https://images.squarespace-cdn.com/content/v1/62fb7612e03f5266305e40a2/aaf76e3d-e9cb-4e71-84d1-6a8dfe501138/BB_banner_800.jpg",
-      "credit": "boutiquebarre.me"
-    },
-    "gong-chamberi": {
-      "url": "https://gong.yoga/wp-content/uploads/2023/12/clases-de-barre-en-madrid.jpg",
-      "credit": "gong.yoga"
-    },
-    "siamo-pilates-centro": {
-      "url": "https://www.siamopilates.com/wp-content/uploads/elementor/thumbs/pilates-cadillac-asistencia-personalizada-siamo-madrid-scaled-r7mz2ey1dymbd7uvqc3e5w61cv5e4ff8aimbrhrs9k.webp",
-      "credit": "siamopilates.com"
-    },
-    "siamo-pilates-moncloa": {
-      "url": "https://www.siamopilates.com/wp-content/uploads/elementor/thumbs/pilates-cadillac-asistencia-personalizada-siamo-madrid-scaled-r7mz2ey1dymbd7uvqc3e5w61cv5e4ff8aimbrhrs9k.webp",
-      "credit": "siamopilates.com"
-    },
-    "siamo-pilates-salamanca": {
-      "url": "https://www.siamopilates.com/wp-content/uploads/elementor/thumbs/pilates-cadillac-asistencia-personalizada-siamo-madrid-scaled-r7mz2ey1dymbd7uvqc3e5w61cv5e4ff8aimbrhrs9k.webp",
-      "credit": "siamopilates.com"
-    },
-    "estacion-pilates": {
-      "url": "https://estacionpilates.es/wp-content/uploads/2021/03/Page-1-1024x375.png",
-      "credit": "estacionpilates.es"
-    },
-    "estudio-a-pilates": {
-      "url": "https://estudioapilates.com/cdn/shop/files/eA_4_9d677ab2-3ace-41ba-b3a5-b5226827c400.jpg?v=1702304654&width=3840",
-      "credit": "estudioapilates.com"
-    },
-    "esbarre-lopez-de-hoyos": {
-      "url": "https://esbarre.es/wp-content/uploads/2024/09/DSC07996_v1-scaled.jpg",
-      "credit": "esbarre.es"
-    },
-    "esbarre-trafalgar": {
-      "url": "https://esbarre.es/wp-content/uploads/2024/09/DSC07996_v1-scaled.jpg",
-      "credit": "esbarre.es"
+      "credit": "estudioarete.com",
+      "localBasename": "arete-pilates-estudio"
     },
     "barrelatte": {
       "url": "https://images.squarespace-cdn.com/content/v1/69b7d83b9e01f167e9215bd6/09dcde91-3e62-403a-99e2-0afbef1a9d64/Captura+de+pantalla+2026-03-16+a+las+10.58.50.png",
-      "credit": "barrelatte.com"
+      "credit": "barrelatte.com",
+      "localBasename": "barrelatte"
+    },
+    "boutique-barre-madrid": {
+      "url": "https://images.squarespace-cdn.com/content/v1/62fb7612e03f5266305e40a2/aaf76e3d-e9cb-4e71-84d1-6a8dfe501138/BB_banner_800.jpg",
+      "credit": "boutiquebarre.me",
+      "localBasename": "boutique-barre-madrid"
+    },
+    "elite-pilates": {
+      "url": "https://elitepilates.net/wp-content/uploads/2026/03/t1-selecc-elite-pilates-002.jpg",
+      "credit": "elitepilates.net",
+      "localBasename": "elite-pilates"
+    },
+    "esbarre-lopez-de-hoyos": {
+      "url": "https://esbarre.es/wp-content/uploads/2024/09/DSC07996_v1-scaled.jpg",
+      "credit": "esbarre.es",
+      "localBasename": "esbarre-lopez-de-hoyos"
+    },
+    "esbarre-trafalgar": {
+      "url": "https://esbarre.es/wp-content/uploads/2024/09/DSC07996_v1-scaled.jpg",
+      "credit": "esbarre.es",
+      "localBasename": "esbarre-trafalgar"
+    },
+    "estacion-pilates": {
+      "url": "https://estacionpilates.es/wp-content/uploads/2021/03/Page-1-1024x375.png",
+      "credit": "estacionpilates.es",
+      "localBasename": "estacion-pilates"
+    },
+    "estudio-a-pilates": {
+      "url": "https://estudioapilates.com/cdn/shop/files/eA_4_9d677ab2-3ace-41ba-b3a5-b5226827c400.jpg?v=1702304654&width=3840",
+      "credit": "estudioapilates.com",
+      "localBasename": "estudio-a-pilates"
+    },
+    "feel-fit-pilates-madrid": {
+      "url": "https://feelfitmadrid.com/wp-content/uploads/2022/10/Romanas-Pilates-de-calidad-en-Madrid-Las-mejores-clases-con-maquinas-barrio-de-salamanca-Manuel-Becerra.webp",
+      "credit": "feelfitmadrid.com",
+      "localBasename": "feel-fit-pilates-madrid"
+    },
+    "gong-chamberi": {
+      "url": "https://gong.yoga/wp-content/uploads/2023/12/clases-de-barre-en-madrid.jpg",
+      "credit": "gong.yoga",
+      "localBasename": "gong-chamberi"
+    },
+    "hom-house-of-movement": {
+      "url": "https://images.squarespace-cdn.com/content/v1/684861a4b84c37477f209aaa/6691a0ec-4e96-4313-8f5f-d61477b7d81b/HOM_Landing+Page_Main+Image_01%402x.jpg",
+      "credit": "hommadrid.com",
+      "localBasename": "hom-house-of-movement"
+    },
+    "olimpia": {
+      "url": "https://cdn.prod.website-files.com/674c5203280c7d69f0772c8f/69bae7a65a47c2012979fc97_BANNER-DOWNLOAD-APP.png",
+      "credit": "olimpiatwc.com",
+      "localBasename": "olimpia"
+    },
+    "pilates-evidence-madrid": {
+      "url": "https://www.pilatesevidence.com/wp-content/uploads/2022/06/Pilates-Evidence-Elche-Naranjas1_M.png",
+      "credit": "pilatesevidence.com",
+      "localBasename": "pilates-evidence-madrid"
+    },
+    "pilates-garbriele": {
+      "url": "https://pilatesgarbriele.com/wp-content/uploads/2024/07/pilates_garbriele_suelo.jpg",
+      "credit": "pilatesgarbriele.com",
+      "localBasename": "pilates-garbriele"
+    },
+    "pilates-zentro": {
+      "url": "https://www.pilateszentro.es/wp-content/imagenes/pilates-zentro-pilates-madrid-centro-2021.png",
+      "credit": "pilateszentro.es",
+      "localBasename": "pilates-zentro"
+    },
+    "pinar-pilates": {
+      "url": "https://pinarpilates.com/wp-content/uploads/2024/12/DSC3819-2-scaled.jpg",
+      "credit": "pinarpilates.com",
+      "localBasename": "pinar-pilates"
+    },
+    "siamo-pilates-centro": {
+      "url": "https://www.siamopilates.com/wp-content/uploads/elementor/thumbs/pilates-cadillac-asistencia-personalizada-siamo-madrid-scaled-r7mz2ey1dymbd7uvqc3e5w61cv5e4ff8aimbrhrs9k.webp",
+      "credit": "siamopilates.com",
+      "localBasename": "siamo-pilates-centro"
+    },
+    "siamo-pilates-moncloa": {
+      "url": "https://www.siamopilates.com/wp-content/uploads/elementor/thumbs/pilates-cadillac-asistencia-personalizada-siamo-madrid-scaled-r7mz2ey1dymbd7uvqc3e5w61cv5e4ff8aimbrhrs9k.webp",
+      "credit": "siamopilates.com",
+      "localBasename": "siamo-pilates-moncloa"
+    },
+    "siamo-pilates-salamanca": {
+      "url": "https://www.siamopilates.com/wp-content/uploads/elementor/thumbs/pilates-cadillac-asistencia-personalizada-siamo-madrid-scaled-r7mz2ey1dymbd7uvqc3e5w61cv5e4ff8aimbrhrs9k.webp",
+      "credit": "siamopilates.com",
+      "localBasename": "siamo-pilates-salamanca"
     },
     "temple-pilates": {
       "url": "https://templepilates.es/wp-content/uploads/2025/07/Pilates-TEMPLE10511-683x1024.jpg",
-      "credit": "templepilates.es"
+      "credit": "templepilates.es",
+      "localBasename": "temple-pilates"
     }
   }
 }
