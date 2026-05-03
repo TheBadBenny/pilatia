@@ -16,6 +16,9 @@
 /playwright-report
 /playwright/.cache
 
+# scanner artifacts
+.scan-pending-issues.json
+
 # next.js
 /.next/
 /out/

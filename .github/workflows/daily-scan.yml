@@ -1,0 +1,91 @@
+name: Daily studios scan
+
+on:
+  schedule:
+    # 09:00 UTC = 11:00 Madrid (CEST) / 10:00 (CET)
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Ensure issue labels exist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create "data-quality" --color "F4A261" --description "Auto-detected data quality issue" --force
+          gh label create "auto-scan" --color "264653" --description "Created by daily scan workflow" --force
+
+      - name: Run scanner
+        run: node scripts/scan-sources.mjs
+
+      - name: Create issues for changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -f .scan-pending-issues.json ]; then
+            echo "No pending issues file — nothing to do"
+            exit 0
+          fi
+          count=$(jq 'length' .scan-pending-issues.json)
+          echo "Pending issues: $count"
+          if [ "$count" -eq 0 ]; then
+            exit 0
+          fi
+          jq -c '.[]' .scan-pending-issues.json | while read -r issue; do
+            title=$(echo "$issue" | jq -r '.title')
+            body=$(echo "$issue" | jq -r '.body')
+            labels=$(echo "$issue" | jq -r '.labels | join(",")')
+
+            # Skip if open issue with identical title already exists
+            existing=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq 'length')
+            if [ "$existing" -gt 0 ]; then
+              echo "Skipping duplicate: $title"
+              continue
+            fi
+
+            gh issue create --title "$title" --body "$body" --label "$labels" || echo "Failed to create: $title"
+          done
+
+      - name: Cleanup pending issues file
+        run: rm -f .scan-pending-issues.json
+
+      - name: Commit hash updates if any
+        run: |
+          if git diff --quiet data/sources-hashes.json; then
+            echo "No hash changes — nothing to commit"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/sources-hashes.json
+            git commit -m "chore(scan): update source hashes [skip ci]"
+            git push
+          fi
