@@ -40,7 +40,7 @@ const websiteLD = {
 const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-fraunces",
-  weight: ["400", "500"],
+  weight: ["400"],
   display: "swap",
 });
 
