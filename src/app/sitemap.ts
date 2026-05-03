@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllBarrios, getAllStudios } from "@/lib/studios";
 import { SITE_URL } from "@/lib/seo";
+import { BLOG_POSTS } from "@/lib/blog";
 
 export const dynamic = "force-static";
 
@@ -15,9 +16,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/barre-madrid/`, lastModified: today, changeFrequency: "weekly", priority: 0.95 },
     { url: `${SITE_URL}/reformer-pilates-madrid/`, lastModified: today, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/precios/`, lastModified: today, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/blog/`, lastModified: today, changeFrequency: "weekly", priority: 0.85 },
     { url: `${SITE_URL}/metodologia/`, lastModified: today, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/sobre/`, lastModified: today, changeFrequency: "monthly", priority: 0.5 },
   ];
+
+  const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((p) => ({
+    url: `${SITE_URL}/blog/${p.slug}/`,
+    lastModified: new Date(p.publishedAt),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
 
   const barrioPages: MetadataRoute.Sitemap = barrios.map((b) => ({
     url: `${SITE_URL}/barrios/${b.slug}/`,
@@ -33,5 +42,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...barrioPages, ...studioPages];
+  return [...staticPages, ...blogPages, ...barrioPages, ...studioPages];
 }

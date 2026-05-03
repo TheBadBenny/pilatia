@@ -55,6 +55,11 @@ export function Footer() {
                   Comparativa de precios
                 </Link>
               </li>
+              <li>
+                <Link href="/blog/" className="text-ink transition-colors hover:text-sage">
+                  Blog · guías
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -142,6 +142,9 @@ export function MobileMenu() {
               <PrimaryLink href="/precios/" accent="ink">
                 Comparativa de precios
               </PrimaryLink>
+              <PrimaryLink href="/blog/" accent="ink">
+                Blog · guías
+              </PrimaryLink>
             </div>
 
             <div className="mt-7 border-t border-line pt-5">
