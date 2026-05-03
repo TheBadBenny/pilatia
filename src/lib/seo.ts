@@ -76,6 +76,13 @@ export function buildOrganizationLD() {
     description: DEFAULT_DESCRIPTION,
     inLanguage: "es-ES",
     areaServed: { "@type": "City", name: "Madrid" },
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/apple-icon.png`,
+      width: 180,
+      height: 180,
+    },
+    image: `${SITE_URL}/og-image.png`,
   };
 }
 
