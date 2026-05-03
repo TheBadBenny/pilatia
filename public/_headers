@@ -9,9 +9,19 @@
 /_next/static/media/*
   Cache-Control: public, max-age=31536000, immutable
 
-# OG image — refresh daily
+# OG image · 30 days · solo cambia si tocamos el código del og component
 /og-image.png
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000, immutable
+
+# Brand icons · 30 days
+/icon.png
+  Cache-Control: public, max-age=2592000, immutable
+
+/apple-icon.png
+  Cache-Control: public, max-age=2592000, immutable
+
+/favicon.ico
+  Cache-Control: public, max-age=2592000, immutable
 
 # Sitemap and robots — short cache so search engines see updates
 /sitemap.xml

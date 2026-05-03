@@ -10,7 +10,7 @@ export function Analytics() {
       {/* Plausible (privacy-first, no cookies, GDPR-compliant) */}
       {PLAUSIBLE_DOMAIN && (
         <Script
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           defer
           data-domain={PLAUSIBLE_DOMAIN}
           src="https://plausible.io/js/script.outbound-links.js"
@@ -21,7 +21,7 @@ export function Analytics() {
       {CF_BEACON_TOKEN && (
         <Script
           id="cf-web-analytics"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon={JSON.stringify({ token: CF_BEACON_TOKEN })}
@@ -34,10 +34,10 @@ export function Analytics() {
       {GA_MEASUREMENT_ID && (
         <>
           <Script
-            strategy="afterInteractive"
+            strategy="lazyOnload"
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           />
-          <Script id="ga4-init" strategy="afterInteractive">
+          <Script id="ga4-init" strategy="lazyOnload">
             {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
